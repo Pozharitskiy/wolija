@@ -8,7 +8,7 @@ export default function CorporateServices() {
         {/* Logo */}
         <div className="flex items-center gap-[10px]">
           <div className="flex w-10 h-10 flex-col justify-center items-center bg-white">
-            <Image
+            <img
               src="https://api.builder.io/api/v1/image/assets/TEMP/23d6c272cb3cb1e77c04201692b480d880054ea2?width=80"
               alt="Wolja Digital Logo"
               width={40}
@@ -67,12 +67,11 @@ export default function CorporateServices() {
 
       {/* Hero Image */}
       <section className="w-full h-[300px] sm:h-[400px] lg:h-[500px] relative overflow-hidden">
-        <Image
+        <img
           src="https://api.builder.io/api/v1/image/assets/TEMP/bfefd954787690e3c77dee02f1a22fea654b8ad7?width=3840"
           alt="Business roles with various pawns"
-          fill
-          className="object-cover"
-          priority
+          className="object-cover w-full h-full"
+          style={{ width: '100%', height: '100%' }}
         />
       </section>
 
@@ -214,13 +213,13 @@ export default function CorporateServices() {
           {/* Logo Section */}
           <div className="flex items-center gap-[10px] w-full lg:w-[360px]">
             <div className="flex w-10 h-10 flex-col justify-center items-center bg-white">
-              <Image
-                src="https://api.builder.io/api/v1/image/assets/TEMP/23d6c272cb3cb1e77c04201692b480d880054ea2?width=80"
-                alt="Wolja Digital Logo"
-                width={40}
-                height={37}
-                className="object-contain"
-              />
+              <img
+              src="https://api.builder.io/api/v1/image/assets/TEMP/23d6c272cb3cb1e77c04201692b480d880054ea2?width=80"
+              alt="Wolja Digital Logo"
+              width={40}
+              height={37}
+              className="object-contain"
+            />
             </div>
             <span className="text-[#2d3748] font-inter text-sm font-normal">
               Wolja Digital
