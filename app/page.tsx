@@ -71,7 +71,6 @@ export default function CorporateServices() {
           src="https://api.builder.io/api/v1/image/assets/TEMP/bfefd954787690e3c77dee02f1a22fea654b8ad7?width=3840"
           alt="Business roles with various pawns"
           className="object-cover w-full h-full"
-          style={{ width: '100%', height: '100%' }}
         />
       </section>
 
@@ -85,45 +84,41 @@ export default function CorporateServices() {
       </div>
 
       {/* Main Content */}
-      <main className="flex flex-col items-center px-4 sm:px-8 lg:px-0 py-8 lg:py-16">
-        <div className="w-full max-w-[1000px] flex flex-col gap-8">
+      <main className="flex flex-col items-center px-4 sm:px-8 lg:px-[120px] py-8 lg:py-16">
+        <div className="w-full max-w-[1000px] flex flex-col gap-6 mx-auto lg:mx-0 lg:ml-[460px]">
           {/* Main Title */}
-          <h1 className="text-[#2d3748] font-poppins text-2xl sm:text-3xl lg:text-[54px] font-bold leading-tight lg:leading-[56px] text-center lg:text-left">
+          <h1 className="text-[32px] md:text-3xl lg:text-[54px] text-[#2d3748] font-poppins font-bold leading-[56px] text-center lg:text-left">
             CORPORATE & TAX STRUCTURING SERVICES
           </h1>
 
+          {/* Tag chips */}
+          <div className="flex flex-wrap gap-3 justify-center lg:justify-start mt-2">
+            {['Company Structuring','Crypto','Cyber','iGaming','Gamedev'].map((t)=> (
+              <span key={t} className="inline-flex items-center px-4 py-2 rounded-[16px] border border-[var(--main)] text-[14px] text-[var(--gray-2)]">
+                {t}
+              </span>
+            ))}
+          </div>
+
           {/* Description */}
-          <p className="text-[#4a5568] font-inter text-base leading-[19px] text-center lg:text-left">
-            We help technology companies and start-ups establish optimal business structure and framework. We design and realise efficient 
-            company structure and special statuses, that align with your business objectives whilst ensuring compliance dependent from the 
-            type of commercial activity. We provide strategic guidance that supports your expansion plans and minimises regulatory risks.
+          <p className="text-[#4a5568] font-inter text-base leading-[19px] text-center lg:text-left mt-6">
+            We help technology companies and start-ups establish optimal business structure and framework. We design and realise efficient company structure and special statuses that align with your business objectives whilst ensuring compliance depending on the type of commercial activity. We provide strategic guidance that supports your expansion plans and minimises regulatory risks.
           </p>
 
           {/* Services */}
-          <div className="flex flex-col gap-8">
-            {/* Service 1 */}
-            <div className="flex flex-col gap-3">
-              <h2 className="text-[#2d3748] font-inter text-xl lg:text-2xl font-normal leading-[26px]">
-                Corporate and tax structuring (jurisdiction selection)
-              </h2>
-              <p className="text-[#4a5568] font-inter text-base leading-[19px]">
-                We analyse your business model, revenue streams, and operational requirements to recommend the most suitable jurisdictions for 
-                your corporate structure. Our assessment considers factors including tax efficiency, regulatory environment, international treaties, 
-                and practical business considerations to create corporate structures that aligns your key commercial objectives.
-              </p>
-            </div>
+          <div className="flex flex-col gap-6 mt-6">
+            {/** Reusable service block **/}
+            <section className="flex flex-col gap-3">
+              <h2 className="text-[#2d3748] text-xl lg:text-2xl font-inter font-medium">Corporate and tax structuring (jurisdiction selection)</h2>
+              <p className="text-[#4a5568] text-base leading-[19px]">We analyse your business model, revenue streams, and operational requirements to recommend the most suitable jurisdictions for your corporate structure. Our assessment considers factors including tax efficiency, regulatory environment, international treaties, and practical business considerations to create corporate structures that align with your key commercial objectives.</p>
+            </section>
 
-            {/* Service 2 */}
-            <div className="flex flex-col gap-3">
-              <h2 className="text-[#2d3748] font-inter text-xl lg:text-2xl font-normal leading-[26px]">
-                Company incorporation (30+ jurisdictions)
-              </h2>
-              <div className="text-[#4a5568] font-inter text-base leading-[19px]">
-                <p className="mb-2">
-                  We facilitate company registration across more than 30 jurisdictions, including popular technology hubs in the EU, UK, USA, CIS, and other key markets.
-                </p>
-                <p className="mb-1">Main locations:</p>
-                <ul className="list-none space-y-1">
+            <section className="flex flex-col gap-3">
+              <h2 className="text-[#2d3748] text-xl lg:text-2xl font-inter font-medium">Company incorporation (30+ jurisdictions)</h2>
+              <div className="text-[#4a5568] text-base leading-[19px]">
+                <p className="mb-2">We facilitate company registration across more than 30 jurisdictions, including popular technology hubs in the EU, UK, USA, CIS, and other key markets.</p>
+                <p className="mb-1 font-medium">Main locations:</p>
+                <ul className="list-disc pl-5 space-y-1">
                   <li>European Union: Poland, Estonia, Netherlands, Cyprus, Ireland, Malta</li>
                   <li>Georgia, Uzbekistan, Kazakhstan, Kyrgyzstan</li>
                   <li>Serbia</li>
@@ -133,52 +128,28 @@ export default function CorporateServices() {
                   <li>Hongkong</li>
                 </ul>
               </div>
-            </div>
+            </section>
 
-            {/* Service 3 */}
-            <div className="flex flex-col gap-3">
-              <h2 className="text-[#2d3748] font-inter text-xl lg:text-2xl font-normal leading-[26px]">
-                Bank account opening
-              </h2>
-              <p className="text-[#4a5568] font-inter text-base leading-[19px]">
-                We assist with opening corporate bank accounts in your chosen jurisdictions.
-              </p>
-            </div>
+            <section className="flex flex-col gap-3">
+              <h2 className="text-[#2d3748] text-xl lg:text-2xl font-inter font-medium">Bank account opening</h2>
+              <p className="text-[#4a5568] text-base leading-[19px]">We assist with opening corporate bank accounts in your chosen jurisdictions.</p>
+            </section>
 
-            {/* Service 4 */}
-            <div className="flex flex-col gap-3">
-              <h2 className="text-[#2d3748] font-inter text-xl lg:text-2xl font-normal leading-[26px]">
-                Corporate governance documents. Share Purchase Agreements, Shareholders Agreements
-              </h2>
-              <p className="text-[#4a5568] font-inter text-base leading-[19px]">
-                We design legal framework for your business relations with partners, investors, management and other stakeholders. We draft and 
-                negotiate investment documentation including share purchase agreements, shareholders&apos; agreements, and related corporate governance 
-                documents. We ensure these agreements address sector-specific issues such as intellectual property rights, employee share schemes, 
-                and exit provisions.
-              </p>
-            </div>
+            <section className="flex flex-col gap-3">
+              <h2 className="text-[#2d3748] text-xl lg:text-2xl font-inter font-medium">Corporate governance documents. Share Purchase Agreements, Shareholders Agreements</h2>
+              <p className="text-[#4a5568] text-base leading-[19px]">We design legal framework for your business relations with partners, investors, management and other stakeholders. We draft and negotiate investment documentation including share purchase agreements, shareholders' agreements, and related corporate governance documents. We ensure these agreements address sector-specific issues such as intellectual property rights, employee share schemes, and exit provisions.</p>
+            </section>
 
-            {/* Service 5 */}
-            <div className="flex flex-col gap-3">
-              <h2 className="text-[#2d3748] font-inter text-xl lg:text-2xl font-normal leading-[26px]">
-                SAFE and investment agreements
-              </h2>
-              <p className="text-[#4a5568] font-inter text-base leading-[19px]">
-                We guide companies on formalising investment attraction activities. We prepare Simple Agreements for Future Equity (SAFE) and 
-                other investment instruments commonly used in start-up funding rounds.
-              </p>
-            </div>
+            <section className="flex flex-col gap-3">
+              <h2 className="text-[#2d3748] text-xl lg:text-2xl font-inter font-medium">SAFE and investment agreements</h2>
+              <p className="text-[#4a5568] text-base leading-[19px]">We guide companies on formalising investment attraction activities. We prepare Simple Agreements for Future Equity (SAFE) and other investment instruments commonly used in start-up funding rounds.</p>
+            </section>
 
-            {/* Service 6 */}
-            <div className="flex flex-col gap-3">
-              <h2 className="text-[#2d3748] font-inter text-xl lg:text-2xl font-normal leading-[26px]">
-                Special programmes and zones for IT companies and start-ups (IT-Park, Virtual zone)
-              </h2>
-              <p className="text-[#4a5568] font-inter text-base leading-[19px]">
-                We guide companies through applications for special economic zones, IT parks, and government incentive programmes designed for 
-                technology businesses. These programmes often provide significant tax advantages, simplified regulatory procedures, and other benefits.
-              </p>
-            </div>
+            <section className="flex flex-col gap-3">
+              <h2 className="text-[#2d3748] text-xl lg:text-2xl font-inter font-medium">Special programmes and zones for IT companies and start-ups (IT-Park, Virtual zone)</h2>
+              <p className="text-[#4a5568] text-base leading-[19px]">We guide companies through applications for special economic zones, IT parks, and government incentive programmes designed for technology businesses. These programmes often provide significant tax advantages, simplified regulatory procedures, and other benefits.</p>
+            </section>
+
           </div>
         </div>
       </main>
