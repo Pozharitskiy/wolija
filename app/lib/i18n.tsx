@@ -11,6 +11,7 @@ interface I18nContextType {
   language: Language;
   setLanguage: (lang: Language) => void;
   t: (key: string) => string;
+  translations: Translations;
 }
 
 const I18nContext = createContext<I18nContextType | undefined>(undefined);
@@ -32,7 +33,7 @@ export function I18nProvider({ children }: { children: ReactNode }) {
   };
 
   return (
-    <I18nContext.Provider value={{ language, setLanguage, t }}>
+    <I18nContext.Provider value={{ language, setLanguage, t, translations: translations[language] }}>
       {children}
     </I18nContext.Provider>
   );

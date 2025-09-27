@@ -1,750 +1,787 @@
 {
-    "header": {
-        "logo": "Wolja Digital",
-        "nav": {
-            "home": "Home",
-            "services": "Services",
-            "team": "Team",
-            "blog": "Blog",
-            "company": "Company"
-        },
-        "language": "Eng"
+  "header": {
+    "logo": "Wolja Digital",
+    "nav": {
+      "home": "Home",
+      "services": "Services",
+      "team": "Team",
+      "cases": "Cases",
+      "blog": "Blog",
+      "company": "Company"
     },
-    "breadcrumb": {
-        "home": "Home",
-        "services": "Services",
-        "projects": "Projects",
-        "team": "Team",
-        "blog": "Blog",
-        "company": "Company",
-        "contact": "Contact",
-        "privacyPolicy": "Privacy Policy",
-        "termsOfUse": "Terms of Use",
-        "cookiePolicy": "Cookie Policy",
-        "corporateStructuring": "Corporate structuring"
+    "language": "Eng"
+  },
+  "breadcrumb": {
+    "home": "Home",
+    "services": "Services",
+    "projects": "Projects",
+    "team": "Team",
+    "blog": "Blog",
+    "company": "Company",
+    "contact": "Contact",
+    "cases": "Cases",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfUse": "Terms of Use",
+    "cookiePolicy": "Cookie Policy",
+    "corporateStructuring": "Corporate structuring"
+  },
+  "homepage": {
+    "hero": {
+      "title": "Expert Legal Solutions for Technology Companies",
+      "subtitle": "We provide comprehensive legal and corporate structuring services to help technology companies and startups establish optimal business frameworks.",
+      "cta": {
+        "primary": "Get Consultation",
+        "secondary": "Our Services"
+      }
     },
-    "homepage": {
-        "hero": {
-            "title": "Expert Legal Solutions for Technology Companies",
-            "subtitle": "We provide comprehensive legal and corporate structuring services to help technology companies and startups establish optimal business frameworks.",
-            "cta": {
-                "primary": "Get Consultation",
-                "secondary": "Our Services"
-            }
-        },
-        "sections": {
-            "services": {
-                "title": "Our Services",
-                "subtitle": "Comprehensive legal solutions tailored for technology companies and startups",
-                "viewAll": "View All Services"
-            },
-            "insights": {
-                "title": "Latest Insights",
-                "subtitle": "Stay informed with our expert analysis and industry updates",
-                "viewAll": "View All Insights"
-            },
-            "projects": {
-                "title": "Featured Projects",
-                "subtitle": "Discover how we've helped companies achieve their goals"
-            }
-        },
-        "services": {
-            "corporate": {
-                "title": "Corporate & Tax Structuring",
-                "description": "Optimal business structure and framework design for technology companies and start-ups."
-            },
-            "legal": {
-                "title": "Legal Consulting",
-                "description": "Comprehensive legal advice for technology businesses and regulatory compliance."
-            },
-            "tax": {
-                "title": "Tax Advisory",
-                "description": "Strategic tax planning and optimization for international business operations."
-            },
-            "compliance": {
-                "title": "Compliance Services",
-                "description": "Regulatory compliance and risk management for technology companies."
-            }
-        },
-        "projects": {
-            "fintech": {
-                "title": "FinTech Startup Structure",
-                "description": "Complete corporate structuring for a financial technology startup expanding globally."
-            },
-            "ecommerce": {
-                "title": "E-commerce Platform Expansion",
-                "description": "Legal framework for an e-commerce platform entering new European markets."
-            },
-            "gaming": {
-                "title": "Gaming Company Setup",
-                "description": "Multi-jurisdictional structure for a gaming company with international operations."
-            },
-            "saas": {
-                "title": "SaaS Global Structure",
-                "description": "Tax-efficient structure for a SaaS company serving global enterprise clients."
-            },
-            "blockchain": {
-                "title": "Blockchain Compliance",
-                "description": "Regulatory compliance framework for a blockchain technology company."
-            },
-            "healthcare": {
-                "title": "HealthTech Legal Framework",
-                "description": "Comprehensive legal structure for a healthcare technology platform."
-            },
-            "renewable": {
-                "title": "Renewable Energy Structure",
-                "description": "Corporate structure for a renewable energy technology company."
-            },
-            "ai": {
-                "title": "AI Startup Legal Setup",
-                "description": "Legal framework for an artificial intelligence startup with global ambitions."
-            },
-            "categories": {
-                "fintech": "FinTech",
-                "ecommerce": "E-commerce",
-                "gaming": "Gaming",
-                "saas": "SaaS",
-                "blockchain": "Blockchain",
-                "healthcare": "HealthTech",
-                "renewable": "Clean Energy",
-                "ai": "AI & Machine Learning"
-            }
-        },
-        "blog": {
-            "post1": {
-                "title": "EU Digital Services Act 2024: What Technology Companies Need to Know",
-                "excerpt": "A comprehensive guide to the new Digital Services Act and its implications for tech companies operating in the EU."
-            },
-            "post2": {
-                "title": "Tax Optimization Strategies for International Technology Companies",
-                "excerpt": "Explore effective tax planning strategies for technology companies with global operations."
-            },
-            "post3": {
-                "title": "Corporate Structuring Best Practices for Startups",
-                "excerpt": "Essential considerations for startups when establishing their corporate structure and legal framework."
-            },
-            "categories": {
-                "regulation": "Regulation",
-                "tax": "Tax Planning",
-                "corporate": "Corporate Law"
-            }
-        },
-        "contact": {
-            "title": "Ready to Get Started?",
-            "subtitle": "Contact us today to discuss your legal and corporate structuring needs."
-        }
+    "sections": {
+      "services": {
+        "title": "Our Services",
+        "subtitle": "Comprehensive legal solutions tailored for technology companies and startups",
+        "viewAll": "View All Services"
+      },
+      "insights": {
+        "title": "Latest Insights",
+        "subtitle": "Stay informed with our expert analysis and industry updates",
+        "viewAll": "View All Insights"
+      },
+      "projects": {
+        "title": "Featured Projects",
+        "subtitle": "Discover how we've helped companies achieve their goals"
+      }
     },
     "services": {
-        "hero": {
-            "title": "Our Services",
-            "subtitle": "Comprehensive legal solutions for technology companies and startups"
-        },
-        "intro": {
-            "title": "Why Choose Wolja Digital",
-            "description": "We specialize in providing legal and corporate structuring services specifically tailored for technology companies, startups, and digital businesses. Our expertise spans multiple jurisdictions and regulatory environments."
-        },
-        "advantages": {
-            "expertise": {
-                "title": "Technology Expertise",
-                "description": "Deep understanding of technology business models and industry-specific legal requirements."
-            },
-            "global": {
-                "title": "Global Reach",
-                "description": "Multi-jurisdictional expertise covering 30+ countries and regulatory environments."
-            },
-            "efficiency": {
-                "title": "Efficient Process",
-                "description": "Streamlined processes and technology-driven solutions for faster results."
-            }
-        },
-        "grid": {
-            "title": "Our Service Areas"
-        },
-        "corporate": {
-            "title": "Corporate & Tax Structuring",
-            "description": "Optimal business structure and framework design for technology companies and start-ups."
-        },
-        "legal": {
-            "title": "Legal Consulting",
-            "description": "Comprehensive legal advice for technology businesses and regulatory compliance."
-        },
-        "tax": {
-            "title": "Tax Advisory",
-            "description": "Strategic tax planning and optimization for international business operations."
-        },
-        "compliance": {
-            "title": "Compliance Services",
-            "description": "Regulatory compliance and risk management for technology companies."
-        },
-        "ip": {
-            "title": "Intellectual Property",
-            "description": "IP protection and licensing strategies for technology innovations."
-        },
-        "mergers": {
-            "title": "M&A Advisory",
-            "description": "Mergers and acquisitions support for technology companies."
-        },
-        "contact": {
-            "title": "Need Expert Legal Advice?",
-            "subtitle": "Contact our team to discuss your specific requirements and get a customized solution."
-        }
-    },
-    "service": {
-        "sections": {
-            "services": "What We Offer",
-            "advantages": "Our Advantages",
-            "relatedProjects": "Related Projects"
-        },
-        "contact": {
-            "title": "Interested in This Service?",
-            "subtitle": "Get in touch with our experts to learn more about how we can help your business."
-        }
-    },
-    "team": {
-        "hero": {
-            "title": "Our Team",
-            "subtitle": "Meet the legal experts who will help your business succeed"
-        },
-        "intro": {
-            "title": "Experienced Legal Professionals",
-            "description": "Our team combines deep legal expertise with practical business experience to deliver solutions that work for technology companies and startups."
-        },
-        "members": {
-            "john": {
-                "position": "Senior Partner & Managing Director",
-                "experience": "15+ years in corporate law and technology transactions"
-            },
-            "maria": {
-                "position": "Senior Tax Advisor",
-                "experience": "12+ years in international tax planning and compliance"
-            },
-            "david": {
-                "position": "Corporate Lawyer",
-                "experience": "10+ years in technology law and commercial transactions"
-            },
-            "sarah": {
-                "position": "Financial Services Lawyer",
-                "experience": "9+ years in financial services and fintech regulation"
-            },
-            "alexander": {
-                "position": "CIS Markets Director",
-                "experience": "14+ years in CIS legal markets and cross-border transactions"
-            },
-            "elena": {
-                "position": "EU Compliance Director",
-                "experience": "11+ years in EU regulatory compliance and data protection"
-            }
-        },
-        "practiceAreas": {
-            "corporate": "Corporate Law",
-            "ma": "M&A",
-            "securities": "Securities",
-            "governance": "Corporate Governance",
-            "tax": "Tax Planning",
-            "international": "International Tax",
-            "compliance": "Compliance",
-            "structuring": "Tax Structuring",
-            "technology": "Technology Law",
-            "dataProtection": "Data Protection",
-            "ip": "Intellectual Property",
-            "commercial": "Commercial Law",
-            "banking": "Banking Law",
-            "financial": "Financial Services",
-            "fintech": "FinTech",
-            "regulatory": "Regulatory",
-            "cislaw": "CIS Law",
-            "crossborder": "Cross-border Transactions",
-            "arbitration": "International Arbitration",
-            "disputes": "Dispute Resolution",
-            "eulaw": "EU Law",
-            "gdpr": "GDPR",
-            "digitalservices": "Digital Services",
-            "ecommerce": "E-commerce Law"
-        },
-        "offices": {
-            "title": "Our Global Presence",
-            "description": "We operate from three strategic locations to serve our clients across Europe, CIS, and beyond.",
-            "warsaw": {
-                "title": "Warsaw, Poland",
-                "address": "ul. Marszałkowska 126/134, 00-008 Warsaw, Poland",
-                "description": "European headquarters serving EU markets"
-            },
-            "tbilisi": {
-                "title": "Tbilisi, Georgia",
-                "address": "12 Tsinandali St, Tbilisi 0144, Georgia",
-                "description": "CIS markets and regional expansion hub"
-            },
-            "limassol": {
-                "title": "Limassol, Cyprus",
-                "address": "28th October 365, Limassol 3107, Cyprus",
-                "description": "Financial services and offshore solutions"
-            }
-        },
-        "contact": {
-            "title": "Work With Our Team",
-            "subtitle": "Ready to work with experienced legal professionals? Contact us to discuss your needs."
-        }
-    },
-    "blog": {
-        "hero": {
-            "title": "Legal Insights & Updates",
-            "subtitle": "Stay informed with our expert analysis and industry updates for technology companies"
-        },
-        "filter": {
-            "title": "Filter by Category"
-        },
-        "categories": {
-            "all": "All Posts",
-            "regulation": "Regulation",
-            "tax": "Tax Planning",
-            "corporate": "Corporate Law",
-            "technology": "Technology",
-            "compliance": "Compliance"
-        },
-        "posts": {
-            "dsa2024": {
-                "title": "EU Digital Services Act 2024: What Technology Companies Need to Know",
-                "excerpt": "A comprehensive guide to the new Digital Services Act and its implications for tech companies operating in the EU.",
-                "content": "The European Union's Digital Services Act (DSA) represents one of the most significant regulatory developments for technology companies in recent years. This landmark legislation introduces comprehensive obligations for digital service providers, fundamentally changing how technology companies must operate within the European Union.\n\nThe DSA applies to a broad range of digital services, including online platforms, search engines, and other intermediary services. Companies falling under its scope must implement robust content moderation systems, enhance transparency in their algorithmic processes, and establish clear procedures for handling user complaints and appeals.\n\nFor technology companies, compliance with the DSA requires significant operational and technical adjustments. This includes implementing new risk assessment procedures, establishing dedicated compliance teams, and potentially restructuring certain business processes to align with the regulatory requirements.\n\nThe implications extend beyond mere compliance costs. Companies must also consider the strategic impact on their business models, particularly those relying heavily on algorithmic content distribution or user-generated content. The DSA's transparency requirements may necessitate fundamental changes to how companies present their services to users.\n\nOur legal team has extensive experience helping technology companies navigate complex regulatory landscapes. We provide comprehensive DSA compliance assessments and implementation strategies tailored to each client's specific business model and operational requirements."
-            },
-            "taxOptimization": {
-                "title": "Tax Optimization Strategies for International Technology Companies",
-                "excerpt": "Explore effective tax planning strategies for technology companies with global operations.",
-                "content": "International technology companies face unique tax challenges due to the global nature of their operations and the intangible nature of many digital services. Effective tax planning requires a comprehensive understanding of multiple jurisdictions and their respective tax regimes.\n\nOne of the primary considerations for technology companies is the allocation of intellectual property rights and licensing revenues across different jurisdictions. Strategic placement of IP assets can significantly impact overall tax efficiency while ensuring compliance with anti-avoidance regulations such as the OECD's Base Erosion and Profit Shifting (BEPS) initiatives.\n\nThe concept of permanent establishment has evolved significantly with digital businesses. Technology companies must carefully evaluate their activities in each jurisdiction to determine their tax obligations and potential exposure to corporate income tax.\n\nTransfer pricing policies play a crucial role in international tax planning for technology companies. Proper documentation and economic justification of inter-company transactions are essential to avoid disputes with tax authorities and ensure compliance with local regulations.\n\nOur tax advisory team works closely with technology companies to develop comprehensive tax strategies that balance efficiency with compliance requirements. We provide ongoing support to ensure that tax structures remain effective as businesses evolve and regulatory landscapes change."
-            },
-            "corporateStructuring": {
-                "title": "Corporate Structuring Best Practices for Startups",
-                "excerpt": "Essential considerations for startups when establishing their corporate structure and legal framework.",
-                "content": "The corporate structure of a startup forms the foundation for its future growth and success. Making the right decisions early can significantly impact a company's ability to raise funding, expand internationally, and achieve strategic objectives.\n\nOne of the first considerations is the choice of incorporation jurisdiction. While many startups default to incorporating in their home country, international businesses often benefit from more strategic jurisdictional choices that consider factors such as tax efficiency, regulatory environment, and access to international markets.\n\nEquity structure and governance arrangements are critical components that require careful planning. Startups must balance the need for flexibility with investor protection requirements, particularly when preparing for future funding rounds. This includes implementing appropriate share classes, vesting schedules, and decision-making mechanisms.\n\nIntellectual property protection should be integrated into the corporate structure from the outset. This involves not only securing appropriate IP rights but also ensuring that these assets are held in the optimal jurisdictions and corporate entities within the group structure.\n\nRegulatory compliance considerations vary significantly depending on the nature of the business and the markets it serves. Technology startups, in particular, must navigate complex data protection, financial services, and industry-specific regulations that may impact their corporate structure choices.\n\nOur team specializes in helping startups establish robust corporate structures that support their growth objectives while maintaining flexibility for future changes and opportunities."
-            },
-            "aiCompliance": {
-                "title": "AI Legal Framework: Navigating the Regulatory Landscape",
-                "excerpt": "Understanding the evolving legal requirements for artificial intelligence and machine learning companies.",
-                "content": "The artificial intelligence sector is experiencing unprecedented growth, accompanied by rapidly evolving regulatory frameworks that companies must navigate carefully to ensure compliance and maintain competitive advantage.\n\nThe European Union's proposed AI Act represents the most comprehensive attempt to regulate artificial intelligence systems globally. This legislation introduces a risk-based approach to AI regulation, categorizing AI systems based on their potential impact and imposing varying levels of compliance requirements.\n\nHigh-risk AI systems, including those used in critical infrastructure, education, and law enforcement, face the most stringent requirements. Companies developing such systems must implement robust quality management systems, ensure human oversight, and maintain detailed documentation of their AI models and training data.\n\nData protection considerations are particularly complex for AI companies, as they often involve processing large volumes of personal data for training and operational purposes. Compliance with GDPR and similar regulations requires careful attention to legal bases for processing, data minimization principles, and individual rights.\n\nIntellectual property strategies for AI companies must address unique challenges related to AI-generated content, training data ownership, and patent protection for AI innovations. The intersection of AI and IP law continues to evolve, requiring specialized expertise to navigate effectively.\n\nOur legal team provides comprehensive support to AI companies, helping them establish compliant business practices while preserving their ability to innovate and compete in rapidly evolving markets."
-            },
-            "gdprUpdate": {
-                "title": "GDPR Updates 2024: New Enforcement Trends",
-                "excerpt": "Latest developments in GDPR enforcement and what companies need to know about compliance.",
-                "content": "The General Data Protection Regulation continues to evolve through enforcement actions and regulatory guidance, creating new compliance considerations for technology companies operating in the European Union.\n\nRecent enforcement trends show increased focus on algorithmic decision-making and automated processing systems. Data protection authorities are paying particular attention to companies' ability to explain their algorithmic processes and ensure meaningful human involvement in significant decisions affecting individuals.\n\nThe concept of legitimate interest as a legal basis for processing has been refined through recent decisions and guidance. Companies must conduct more rigorous legitimate interest assessments and demonstrate that their business interests do not override individuals' privacy rights.\n\nInternational data transfers remain a complex area, with ongoing developments in adequacy decisions and the evolution of transfer mechanisms such as Standard Contractual Clauses and Binding Corporate Rules.\n\nOur GDPR compliance team helps companies stay current with regulatory developments and implement effective privacy programs that support business objectives while ensuring full compliance with data protection requirements."
-            },
-            "fintech": {
-                "title": "FinTech Regulatory Landscape: 2024 Outlook",
-                "excerpt": "Comprehensive overview of the regulatory environment for financial technology companies.",
-                "content": "The financial technology sector continues to experience significant regulatory evolution as authorities worldwide adapt their frameworks to address the unique characteristics and risks of digital financial services.\n\nOpen banking regulations are expanding globally, creating new opportunities and compliance obligations for FinTech companies. Understanding these requirements and their implications for data sharing, customer consent, and competitive positioning is crucial for companies operating in this space.\n\nCryptocurrency and digital asset regulations are becoming increasingly sophisticated, with many jurisdictions implementing comprehensive frameworks that address everything from custody requirements to market conduct obligations.\n\nOur FinTech legal team provides specialized guidance to help companies navigate these complex regulatory environments while building sustainable and compliant business models."
-            },
-            "crossBorder": {
-                "title": "Cross-Border Tax Planning in the Digital Age",
-                "excerpt": "Modern approaches to international tax planning for digital businesses.",
-                "content": "Digital businesses face unique challenges in international tax planning due to the borderless nature of their operations and the ongoing evolution of international tax rules.\n\nThe OECD's Pillar One and Pillar Two initiatives represent fundamental changes to international tax principles, particularly affecting large multinational technology companies. Understanding these changes and their implementation timelines is crucial for effective tax planning.\n\nDigital services taxes implemented by various countries create additional complexity for technology companies, requiring careful analysis of triggering thresholds and compliance obligations.\n\nOur international tax team helps companies develop comprehensive strategies that address these evolving requirements while optimizing overall tax efficiency."
-            },
-            "saasLegal": {
-                "title": "SaaS Legal Considerations: Contracts and Compliance",
-                "excerpt": "Key legal issues for Software-as-a-Service companies in contract structuring and regulatory compliance.",
-                "content": "Software-as-a-Service companies face unique legal challenges related to contract structuring, data protection, and regulatory compliance across multiple jurisdictions.\n\nCustomer agreements must balance flexibility with legal protection, addressing issues such as service level commitments, data processing obligations, and limitation of liability provisions.\n\nRegulatory compliance varies significantly depending on the industries served and the types of data processed. SaaS companies serving regulated industries must implement appropriate controls and oversight mechanisms.\n\nOur team helps SaaS companies develop comprehensive legal frameworks that support their business models while ensuring full compliance with applicable regulations."
-            }
-        },
-        "loadMore": "Load More Posts",
-        "newsletter": {
-            "title": "Stay Updated",
-            "description": "Subscribe to our newsletter for the latest legal insights and industry updates.",
-            "placeholder": "Enter your email address",
-            "subscribe": "Subscribe"
-        },
-        "post": {
-            "sections": {
-                "keyTakeaways": "Key Takeaways",
-                "conclusion": "Conclusion"
-            },
-            "takeaways": {
-                "point1": "Understanding regulatory requirements is crucial for business success",
-                "point2": "Proactive compliance strategies reduce long-term risks and costs",
-                "point3": "Expert legal guidance can help navigate complex regulatory landscapes"
-            },
-            "conclusion": "Navigating the complex legal landscape requires expertise and strategic thinking. Our team is here to help you understand these requirements and implement effective compliance strategies for your business.",
-            "author": {
-                "bio": "Senior legal expert specializing in technology law and regulatory compliance.",
-                "viewProfile": "View Full Profile →"
-            },
-            "relatedService": "Related Service",
-            "contact": {
-                "title": "Need Legal Advice?",
-                "subtitle": "Contact our experts to discuss your specific legal requirements."
-            }
-        }
+      "corporate": {
+        "title": "Corporate & Tax Structuring",
+        "description": "Optimal business structure and framework design for technology companies and start-ups."
+      },
+      "legal": {
+        "title": "Legal Consulting",
+        "description": "Comprehensive legal advice for technology businesses and regulatory compliance."
+      },
+      "tax": {
+        "title": "Tax Advisory",
+        "description": "Strategic tax planning and optimization for international business operations."
+      },
+      "compliance": {
+        "title": "Compliance Services",
+        "description": "Regulatory compliance and risk management for technology companies."
+      }
     },
     "projects": {
-        "fintech": {
-            "title": "FinTech Startup Global Structure",
-            "overview": "A comprehensive corporate structuring project for a financial technology startup expanding globally, requiring compliance with multiple regulatory frameworks.",
-            "challenge": "The client needed to establish a corporate structure that would accommodate rapid international expansion while ensuring compliance with financial services regulations in multiple jurisdictions.",
-            "solution": "We designed a multi-jurisdictional structure with holding companies in optimal locations, subsidiary operations in target markets, and a comprehensive compliance framework.",
-            "results": "Successfully launched operations in 5 jurisdictions within 12 months, securing necessary licenses and regulatory approvals while maintaining tax efficiency.",
-            "duration": "8 months",
-            "location": "EU, UK, USA"
-        },
-        "ecommerce": {
-            "title": "E-commerce Platform European Expansion",
-            "overview": "Legal framework development for an e-commerce platform entering new European markets with complex regulatory requirements.",
-            "challenge": "The platform needed to comply with varying consumer protection laws, data protection requirements, and tax obligations across multiple EU member states.",
-            "solution": "We established a centralized European structure with local compliance mechanisms and a comprehensive legal framework covering all operational aspects.",
-            "results": "Successful market entry in 8 EU countries with full regulatory compliance and optimized tax structure.",
-            "duration": "6 months",
-            "location": "European Union"
-        },
-        "categories": {
-            "fintech": "FinTech",
-            "ecommerce": "E-commerce",
-            "saas": "SaaS",
-            "gaming": "Gaming"
-        }
+      "fintech": {
+        "title": "FinTech Startup Structure",
+        "description": "Complete corporate structuring for a financial technology startup expanding globally."
+      },
+      "ecommerce": {
+        "title": "E-commerce Platform Expansion",
+        "description": "Legal framework for an e-commerce platform entering new European markets."
+      },
+      "gaming": {
+        "title": "Gaming Company Setup",
+        "description": "Multi-jurisdictional structure for a gaming company with international operations."
+      },
+      "saas": {
+        "title": "SaaS Global Structure",
+        "description": "Tax-efficient structure for a SaaS company serving global enterprise clients."
+      },
+      "blockchain": {
+        "title": "Blockchain Compliance",
+        "description": "Regulatory compliance framework for a blockchain technology company."
+      },
+      "healthcare": {
+        "title": "HealthTech Legal Framework",
+        "description": "Comprehensive legal structure for a healthcare technology platform."
+      },
+      "renewable": {
+        "title": "Renewable Energy Structure",
+        "description": "Corporate structure for a renewable energy technology company."
+      },
+      "ai": {
+        "title": "AI Startup Legal Setup",
+        "description": "Legal framework for an artificial intelligence startup with global ambitions."
+      },
+      "categories": {
+        "fintech": "FinTech",
+        "ecommerce": "E-commerce",
+        "gaming": "Gaming",
+        "saas": "SaaS",
+        "blockchain": "Blockchain",
+        "healthcare": "HealthTech",
+        "renewable": "Clean Energy",
+        "ai": "AI & Machine Learning"
+      }
     },
-    "project": {
-        "details": {
-            "duration": "Duration",
-            "location": "Location",
-            "category": "Category",
-            "team": "Team",
-            "members": "members"
-        },
-        "sections": {
-            "overview": "Project Overview",
-            "challenge": "Challenge",
-            "solution": "Our Solution",
-            "results": "Results",
-            "team": "Team Members",
-            "relatedServices": "Related Services"
-        },
-        "contact": {
-            "title": "Similar Project Needs?",
-            "subtitle": "Contact us to discuss how we can help with your specific requirements."
-        }
-    },
-    "company": {
-        "hero": {
-            "title": "About Wolja Digital",
-            "subtitle": "Expert legal solutions for technology companies and startups worldwide"
-        },
-        "about": {
-            "title": "Who We Are",
-            "paragraph1": "Wolja Digital is a specialized legal consultancy focused on providing comprehensive corporate structuring and legal services to technology companies, startups, and digital businesses worldwide.",
-            "paragraph2": "Our team combines deep legal expertise with practical business experience, enabling us to deliver solutions that not only ensure compliance but also support our clients' strategic objectives and growth plans.",
-            "paragraph3": "We operate from three strategic locations across Europe and the CIS region, providing our clients with local expertise and global reach. Our multilingual team understands the unique challenges facing technology businesses in today's rapidly evolving regulatory landscape."
-        },
-        "values": {
-            "title": "Our Values",
-            "description": "The principles that guide our work and define our commitment to clients.",
-            "excellence": {
-                "title": "Excellence",
-                "description": "We strive for the highest standards in everything we do, delivering exceptional results for our clients."
-            },
-            "integrity": {
-                "title": "Integrity",
-                "description": "We maintain the highest ethical standards and transparency in all our professional relationships."
-            },
-            "innovation": {
-                "title": "Innovation",
-                "description": "We embrace innovative approaches to legal services, leveraging technology and creative thinking."
-            }
-        },
-        "advantages": {
-            "title": "Why Choose Wolja Digital",
-            "description": "Discover what sets us apart in the legal services industry.",
-            "expertise": {
-                "title": "Specialized Expertise",
-                "description": "Deep understanding of technology business models and industry-specific legal requirements."
-            },
-            "global": {
-                "title": "Global Reach",
-                "description": "Multi-jurisdictional expertise covering 30+ countries and regulatory environments."
-            },
-            "efficiency": {
-                "title": "Efficient Process",
-                "description": "Streamlined processes and technology-driven solutions for faster, more cost-effective results."
-            },
-            "personalized": {
-                "title": "Personalized Service",
-                "description": "Tailored solutions that address each client's unique needs and business objectives."
-            }
-        },
-        "offices": {
-            "title": "Our Global Presence",
-            "description": "We operate from three strategic locations to serve our clients across Europe, CIS, and beyond.",
-            "warsaw": {
-                "title": "Warsaw, Poland",
-                "address": "ul. Marszałkowska 126/134, 00-008 Warsaw, Poland",
-                "description": "European headquarters serving EU markets and regional expansion"
-            },
-            "tbilisi": {
-                "title": "Tbilisi, Georgia",
-                "address": "12 Tsinandali St, Tbilisi 0144, Georgia",
-                "description": "CIS markets hub and regional business development center"
-            },
-            "limassol": {
-                "title": "Limassol, Cyprus",
-                "address": "28th October 365, Limassol 3107, Cyprus",
-                "description": "Financial services and offshore solutions specialist center"
-            }
-        },
-        "contact": {
-            "title": "Ready to Work Together?",
-            "subtitle": "Contact us to learn more about how we can support your business objectives."
-        }
+    "blog": {
+      "post1": {
+        "title": "EU Digital Services Act 2024: What Technology Companies Need to Know",
+        "excerpt": "A comprehensive guide to the new Digital Services Act and its implications for tech companies operating in the EU."
+      },
+      "post2": {
+        "title": "Tax Optimization Strategies for International Technology Companies",
+        "excerpt": "Explore effective tax planning strategies for technology companies with global operations."
+      },
+      "post3": {
+        "title": "Corporate Structuring Best Practices for Startups",
+        "excerpt": "Essential considerations for startups when establishing their corporate structure and legal framework."
+      },
+      "categories": {
+        "regulation": "Regulation",
+        "tax": "Tax Planning",
+        "corporate": "Corporate Law"
+      }
     },
     "contact": {
-        "hero": {
-            "title": "Contact Us",
-            "subtitle": "Get in touch with our legal experts to discuss your business needs"
-        },
-        "info": {
-            "title": "Get in Touch"
-        },
-        "offices": {
-            "warsaw": {
-                "title": "Warsaw Office",
-                "address": "ul. Marszałkowska 126/134, 00-008 Warsaw, Poland"
-            },
-            "tbilisi": {
-                "title": "Tbilisi Office",
-                "address": "12 Tsinandali St, Tbilisi 0144, Georgia"
-            },
-            "limassol": {
-                "title": "Limassol Office",
-                "address": "28th October 365, Limassol 3107, Cyprus"
-            }
-        },
-        "form": {
-            "title": "Send us a Message",
-            "subtitle": "Fill out the form below and we'll get back to you as soon as possible.",
-            "name": "Full Name",
-            "email": "Email Address",
-            "company": "Company",
-            "message": "Message",
-            "submit": "Send Message"
-        },
-        "title": "Contact Our Team",
-        "service": {
-            "title": "Interested in Our Services?",
-            "subtitle": "Contact us to learn more about how we can help your business."
-        }
-    },
-    "privacy": {
-        "title": "Privacy Policy",
-        "lastUpdated": "Last updated:",
-        "sections": {
-            "overview": {
-                "title": "Overview",
-                "content": "This Privacy Policy describes how Wolja Digital collects, uses, and protects your personal information when you use our services or visit our website."
-            },
-            "dataCollection": {
-                "title": "Information We Collect",
-                "intro": "We collect information you provide directly to us, such as when you:",
-                "personalInfo": "Personal identification information (name, email, phone number)",
-                "contactInfo": "Contact and communication preferences",
-                "businessInfo": "Business information and service requirements",
-                "technicalInfo": "Technical information about your use of our website"
-            },
-            "dataUse": {
-                "title": "How We Use Your Information",
-                "intro": "We use the information we collect to:",
-                "services": "Provide and improve our legal services",
-                "communication": "Communicate with you about our services",
-                "improvement": "Analyze and improve our website and services",
-                "legal": "Comply with legal obligations"
-            },
-            "dataSharing": {
-                "title": "Information Sharing",
-                "content": "We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as described in this policy or as required by law."
-            },
-            "rights": {
-                "title": "Your Rights",
-                "intro": "You have the right to:",
-                "access": "Access your personal information",
-                "rectification": "Correct inaccurate information",
-                "erasure": "Request deletion of your information",
-                "portability": "Data portability",
-                "objection": "Object to processing"
-            },
-            "contact": {
-                "title": "Contact Information",
-                "content": "If you have any questions about this Privacy Policy, please contact us at:",
-                "address": "ul. Marszałkowska 126/134, 00-008 Warsaw, Poland"
-            }
-        }
-    },
-    "terms": {
-        "title": "Terms of Use",
-        "lastUpdated": "Last updated:",
-        "sections": {
-            "acceptance": {
-                "title": "Acceptance of Terms",
-                "content": "By accessing and using our services, you accept and agree to be bound by the terms and provision of this agreement."
-            },
-            "services": {
-                "title": "Description of Services",
-                "content": "Wolja Digital provides legal consulting and corporate structuring services to technology companies and startups."
-            },
-            "obligations": {
-                "title": "Client Obligations",
-                "intro": "As a client, you agree to:",
-                "accurate": "Provide accurate and complete information",
-                "lawful": "Use our services for lawful purposes only",
-                "confidential": "Maintain confidentiality of sensitive information",
-                "prompt": "Respond promptly to requests for information"
-            },
-            "fees": {
-                "title": "Fees and Payment",
-                "content": "Fees for our services will be agreed upon in writing before commencement of work. Payment terms and conditions will be specified in individual service agreements."
-            },
-            "confidentiality": {
-                "title": "Confidentiality",
-                "content": "We maintain strict confidentiality regarding all client information and communications in accordance with professional legal standards and applicable laws."
-            },
-            "limitation": {
-                "title": "Limitation of Liability",
-                "content": "Our liability for any claim related to our services shall be limited to the fees paid for the specific services giving rise to the claim."
-            },
-            "termination": {
-                "title": "Termination",
-                "content": "Either party may terminate the service relationship with appropriate notice as specified in individual service agreements."
-            },
-            "governing": {
-                "title": "Governing Law",
-                "content": "These terms shall be governed by and construed in accordance with the laws of Poland."
-            },
-            "contact": {
-                "title": "Contact Information",
-                "content": "For questions regarding these terms, please contact us at:",
-                "address": "ul. Marszałkowska 126/134, 00-008 Warsaw, Poland"
-            }
-        }
-    },
-    "cookies": {
-        "title": "Cookie Policy",
-        "lastUpdated": "Last updated:",
-        "sections": {
-            "overview": {
-                "title": "What Are Cookies",
-                "content": "Cookies are small text files that are placed on your computer or mobile device when you visit our website. They help us provide you with a better user experience."
-            },
-            "types": {
-                "title": "Types of Cookies We Use",
-                "essential": {
-                    "title": "Essential Cookies",
-                    "content": "These cookies are necessary for the website to function properly and cannot be disabled."
-                },
-                "performance": {
-                    "title": "Performance Cookies",
-                    "content": "These cookies help us understand how visitors use our website by collecting anonymous information."
-                },
-                "functional": {
-                    "title": "Functional Cookies",
-                    "content": "These cookies enable enhanced functionality and personalization, such as language preferences."
-                },
-                "targeting": {
-                    "title": "Targeting Cookies",
-                    "content": "These cookies may be set by our advertising partners to build a profile of your interests."
-                }
-            },
-            "control": {
-                "title": "Managing Cookies",
-                "content": "You can control and manage cookies through your browser settings. Please note that disabling certain cookies may affect the functionality of our website."
-            },
-            "thirdParty": {
-                "title": "Third-Party Cookies",
-                "content": "We may also use third-party services that place cookies on your device. These are governed by the respective third parties' privacy policies."
-            },
-            "contact": {
-                "title": "Contact Us",
-                "content": "If you have any questions about our use of cookies, please contact us at:",
-                "address": "ul. Marszałkowska 126/134, 00-008 Warsaw, Poland"
-            }
-        }
-    },
-    "404": {
-        "title": "Oops....",
-        "subtitle": "Page not found",
-        "description1": "This Page doesn't exist or was removed!",
-        "description2": "We suggest you back to home.",
-        "goHome": "Back to home",
-        "contact": "Contact Us",
-        "suggestions": {
-            "title": "You might be looking for:",
-            "services": "Our Services",
-            "team": "Our Team",
-            "blog": "Latest Insights",
-            "company": "About Us"
-        }
-    },
-    "page": {
-        "title": "CORPORATE & TAX STRUCTURING SERVICES",
-        "description": "We help technology companies and start-ups establish optimal business structure and framework. We design and realise efficient company structure and special statuses, that align with your business objectives whilst ensuring compliance dependent from the type of commercial activity. We provide strategic guidance that supports your expansion plans and minimises regulatory risks.",
-        "services": {
-            "corporateStructuring": {
-                "title": "Corporate and tax structuring (jurisdiction selection)",
-                "description": "We analyse your business model, revenue streams, and operational requirements to recommend the most suitable jurisdictions for your corporate structure. Our assessment considers factors including tax efficiency, regulatory environment, international treaties, and practical business considerations to create corporate structures that aligns your key commercial objectives."
-            },
-            "incorporation": {
-                "title": "Company incorporation (30+ jurisdictions)",
-                "description": "We facilitate company registration across more than 30 jurisdictions, including popular technology hubs in the EU, UK, USA, CIS, and other key markets.",
-                "locations": {
-                    "intro": "Main locations:",
-                    "eu": "European Union: Poland, Estonia, Netherlands, Cyprus, Ireland, Malta",
-                    "cis": "Georgia, Uzbekistan, Kazakhstan, Kyrgyzstan",
-                    "serbia": "Serbia",
-                    "uk": "United Kingdom",
-                    "usa": "USA (Delaware)",
-                    "uae": "UAE",
-                    "hongkong": "Hongkong"
-                }
-            },
-            "bankAccount": {
-                "title": "Bank account opening",
-                "description": "We assist with opening corporate bank accounts in your chosen jurisdictions."
-            },
-            "governance": {
-                "title": "Corporate governance documents. Share Purchase Agreements, Shareholders Agreements",
-                "description": "We design legal framework for your business relations with partners, investors, management and other stakeholders. We draft and negotiate investment documentation including share purchase agreements, shareholders' agreements, and related corporate governance documents. We ensure these agreements address sector-specific issues such as intellectual property rights, employee share schemes, and exit provisions."
-            },
-            "investment": {
-                "title": "SAFE and investment agreements",
-                "description": "We guide companies on formalising investment attraction activities. We prepare Simple Agreements for Future Equity (SAFE) and other investment instruments commonly used in start-up funding rounds."
-            },
-            "specialPrograms": {
-                "title": "Special programmes and zones for IT companies and start-ups (IT-Park, Virtual zone)",
-                "description": "We guide companies through applications for special economic zones, IT parks, and government incentive programmes designed for technology businesses. These programmes often provide significant tax advantages, simplified regulatory procedures, and other benefits."
-            }
-        }
-    },
-    "footer": {
-        "logo": "Wolja Digital",
-        "sections": {
-            "navigation": {
-                "title": "Navigation",
-                "links": {
-                    "home": "Home",
-                    "services": "Services",
-                    "team": "Team",
-                    "blog": "Blog",
-                    "company": "Company"
-                }
-            },
-            "legal": {
-                "title": "Legal",
-                "links": {
-                    "privacy": "Privacy Policy",
-                    "terms": "Term of Use",
-                    "cookies": "Cookie Policy"
-                }
-            },
-            "social": {
-                "title": "Social",
-                "links": {
-                    "linkedin": "Linkedin",
-                    "telegram": "Telegram",
-                    "facebook": "Facebook"
-                }
-            }
-        },
-        "copyright": "© 2025 Wolja Digital - All Rights Reserved"
+      "title": "Ready to Get Started?",
+      "subtitle": "Contact us today to discuss your legal and corporate structuring needs."
     }
+  },
+  "services": {
+    "hero": {
+      "title": "Our Services",
+      "subtitle": "Comprehensive legal solutions for technology companies and startups"
+    },
+    "intro": {
+      "title": "Why Choose Wolja Digital",
+      "description": "We specialize in providing legal and corporate structuring services specifically tailored for technology companies, startups, and digital businesses. Our expertise spans multiple jurisdictions and regulatory environments."
+    },
+    "advantages": {
+      "expertise": {
+        "title": "Technology Expertise",
+        "description": "Deep understanding of technology business models and industry-specific legal requirements."
+      },
+      "global": {
+        "title": "Global Reach",
+        "description": "Multi-jurisdictional expertise covering 30+ countries and regulatory environments."
+      },
+      "efficiency": {
+        "title": "Efficient Process",
+        "description": "Streamlined processes and technology-driven solutions for faster results."
+      }
+    },
+    "grid": {
+      "title": "Our Service Areas"
+    },
+    "corporate": {
+      "title": "Corporate & Tax Structuring",
+      "description": "Optimal business structure and framework design for technology companies and start-ups."
+    },
+    "legal": {
+      "title": "Legal Consulting",
+      "description": "Comprehensive legal advice for technology businesses and regulatory compliance."
+    },
+    "tax": {
+      "title": "Tax Advisory",
+      "description": "Strategic tax planning and optimization for international business operations."
+    },
+    "compliance": {
+      "title": "Compliance Services",
+      "description": "Regulatory compliance and risk management for technology companies."
+    },
+    "ip": {
+      "title": "Intellectual Property",
+      "description": "IP protection and licensing strategies for technology innovations."
+    },
+    "mergers": {
+      "title": "M&A Advisory",
+      "description": "Mergers and acquisitions support for technology companies."
+    },
+    "contact": {
+      "title": "Need Expert Legal Advice?",
+      "subtitle": "Contact our team to discuss your specific requirements and get a customized solution."
+    }
+  },
+  "service": {
+    "sections": {
+      "services": "What We Offer",
+      "advantages": "Our Advantages",
+      "relatedProjects": "Related Projects"
+    },
+    "contact": {
+      "title": "Interested in This Service?",
+      "subtitle": "Get in touch with our experts to learn more about how we can help your business."
+    }
+  },
+  "team": {
+    "title": "Team",
+    "description": "Our lawyers will be your reliable partners — interested in the common results and achievements of goals. They got education in European universities and have massive experience closely connected with the IT and tech sphere.",
+    "members": [
+      {
+        "id": "kamal-tserakhau",
+        "name": "Kamal Tserakhau",
+        "position": "Partner",
+        "experience": "10+ years experience",
+        "photo": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=500&fit=crop&crop=face",
+        "education": "PhD, Intellectual and Cybersecurity, Intellectual Property and New Technologies, Master's Degree, Journalism University",
+        "languages": "English, Polish, Belarusian, Russian",
+        "description": "Legal Team Lead with extensive experience of support of different businesses. Worked with publishers, game studios and online platforms in IT and IP. Expert in structuring for IT corporate groups in Poland, Cyprus, Estonia, Luxembourg, USA, UK and other locations.",
+        "services": [
+          "Corporate & tax structuring services",
+          "Intellectual property protection",
+          "Dispute resolution & international commercial arbitration",
+          "IT company support"
+        ],
+        "projects": 5
+      },
+      {
+        "id": "levan-pogosov",
+        "name": "Levan Pogosov",
+        "position": "Partner",
+        "experience": "10+ years experience",
+        "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=500&fit=crop&crop=face",
+        "education": "Master of Laws, Grifith College, Dublin (Ireland)",
+        "languages": "English, Georgian, Armenian, Russian",
+        "description": "Senior Legal Counsel specialising in CIS & Caucasus jurisdictions. Professional legal services provider with years of experience across Georgia, Serbia, Uzbekistan, and Armenia. Expert in relocation strategies development and business support within international regulatory frameworks.",
+        "services": [
+          "Corporate & tax structuring services",
+          "Relocation",
+          "Private & secure matters",
+          "Regulatory & licenses"
+        ],
+        "projects": 5
+      }
+    ],
+    "practiceAreas": {
+      "corporate": "Corporate Law",
+      "ma": "M&A",
+      "securities": "Securities",
+      "governance": "Corporate Governance",
+      "tax": "Tax Planning",
+      "international": "International Tax",
+      "compliance": "Compliance",
+      "structuring": "Tax Structuring",
+      "technology": "Technology Law",
+      "dataProtection": "Data Protection",
+      "ip": "Intellectual Property",
+      "commercial": "Commercial Law",
+      "banking": "Banking Law",
+      "financial": "Financial Services",
+      "fintech": "FinTech",
+      "regulatory": "Regulatory",
+      "cislaw": "CIS Law",
+      "crossborder": "Cross-border Transactions",
+      "arbitration": "International Arbitration",
+      "disputes": "Dispute Resolution",
+      "eulaw": "EU Law",
+      "gdpr": "GDPR",
+      "digitalservices": "Digital Services",
+      "ecommerce": "E-commerce Law"
+    },
+    "offices": {
+      "title": "Our Global Presence",
+      "description": "We operate from three strategic locations to serve our clients across Europe, CIS, and beyond.",
+      "warsaw": {
+        "title": "Warsaw, Poland",
+        "address": "ul. Marszałkowska 126/134, 00-008 Warsaw, Poland",
+        "description": "European headquarters serving EU markets"
+      },
+      "tbilisi": {
+        "title": "Tbilisi, Georgia",
+        "address": "12 Tsinandali St, Tbilisi 0144, Georgia",
+        "description": "CIS markets and regional expansion hub"
+      },
+      "limassol": {
+        "title": "Limassol, Cyprus",
+        "address": "28th October 365, Limassol 3107, Cyprus",
+        "description": "Financial services and offshore solutions"
+      }
+    },
+    "contact": {
+      "title": "Need legal support?",
+      "subtitle": "We respond in the most convenient way for you Email, messengers, phone calls). Our experience will help your business spread wings fast."
+    }
+  },
+  "blog": {
+    "hero": {
+      "title": "Legal Insights & Updates",
+      "subtitle": "Stay informed with our expert analysis and industry updates for technology companies"
+    },
+    "filter": {
+      "title": "Filter by Category"
+    },
+    "categories": {
+      "all": "All Posts",
+      "regulation": "Regulation",
+      "tax": "Tax Planning",
+      "corporate": "Corporate Law",
+      "technology": "Technology",
+      "compliance": "Compliance"
+    },
+    "posts": {
+      "dsa2024": {
+        "title": "EU Digital Services Act 2024: What Technology Companies Need to Know",
+        "excerpt": "A comprehensive guide to the new Digital Services Act and its implications for tech companies operating in the EU.",
+        "content": "The European Union's Digital Services Act (DSA) represents one of the most significant regulatory developments for technology companies in recent years. This landmark legislation introduces comprehensive obligations for digital service providers, fundamentally changing how technology companies must operate within the European Union.\n\nThe DSA applies to a broad range of digital services, including online platforms, search engines, and other intermediary services. Companies falling under its scope must implement robust content moderation systems, enhance transparency in their algorithmic processes, and establish clear procedures for handling user complaints and appeals.\n\nFor technology companies, compliance with the DSA requires significant operational and technical adjustments. This includes implementing new risk assessment procedures, establishing dedicated compliance teams, and potentially restructuring certain business processes to align with the regulatory requirements.\n\nThe implications extend beyond mere compliance costs. Companies must also consider the strategic impact on their business models, particularly those relying heavily on algorithmic content distribution or user-generated content. The DSA's transparency requirements may necessitate fundamental changes to how companies present their services to users.\n\nOur legal team has extensive experience helping technology companies navigate complex regulatory landscapes. We provide comprehensive DSA compliance assessments and implementation strategies tailored to each client's specific business model and operational requirements."
+      },
+      "taxOptimization": {
+        "title": "Tax Optimization Strategies for International Technology Companies",
+        "excerpt": "Explore effective tax planning strategies for technology companies with global operations.",
+        "content": "International technology companies face unique tax challenges due to the global nature of their operations and the intangible nature of many digital services. Effective tax planning requires a comprehensive understanding of multiple jurisdictions and their respective tax regimes.\n\nOne of the primary considerations for technology companies is the allocation of intellectual property rights and licensing revenues across different jurisdictions. Strategic placement of IP assets can significantly impact overall tax efficiency while ensuring compliance with anti-avoidance regulations such as the OECD's Base Erosion and Profit Shifting (BEPS) initiatives.\n\nThe concept of permanent establishment has evolved significantly with digital businesses. Technology companies must carefully evaluate their activities in each jurisdiction to determine their tax obligations and potential exposure to corporate income tax.\n\nTransfer pricing policies play a crucial role in international tax planning for technology companies. Proper documentation and economic justification of inter-company transactions are essential to avoid disputes with tax authorities and ensure compliance with local regulations.\n\nOur tax advisory team works closely with technology companies to develop comprehensive tax strategies that balance efficiency with compliance requirements. We provide ongoing support to ensure that tax structures remain effective as businesses evolve and regulatory landscapes change."
+      },
+      "corporateStructuring": {
+        "title": "Corporate Structuring Best Practices for Startups",
+        "excerpt": "Essential considerations for startups when establishing their corporate structure and legal framework.",
+        "content": "The corporate structure of a startup forms the foundation for its future growth and success. Making the right decisions early can significantly impact a company's ability to raise funding, expand internationally, and achieve strategic objectives.\n\nOne of the first considerations is the choice of incorporation jurisdiction. While many startups default to incorporating in their home country, international businesses often benefit from more strategic jurisdictional choices that consider factors such as tax efficiency, regulatory environment, and access to international markets.\n\nEquity structure and governance arrangements are critical components that require careful planning. Startups must balance the need for flexibility with investor protection requirements, particularly when preparing for future funding rounds. This includes implementing appropriate share classes, vesting schedules, and decision-making mechanisms.\n\nIntellectual property protection should be integrated into the corporate structure from the outset. This involves not only securing appropriate IP rights but also ensuring that these assets are held in the optimal jurisdictions and corporate entities within the group structure.\n\nRegulatory compliance considerations vary significantly depending on the nature of the business and the markets it serves. Technology startups, in particular, must navigate complex data protection, financial services, and industry-specific regulations that may impact their corporate structure choices.\n\nOur team specializes in helping startups establish robust corporate structures that support their growth objectives while maintaining flexibility for future changes and opportunities."
+      },
+      "aiCompliance": {
+        "title": "AI Legal Framework: Navigating the Regulatory Landscape",
+        "excerpt": "Understanding the evolving legal requirements for artificial intelligence and machine learning companies.",
+        "content": "The artificial intelligence sector is experiencing unprecedented growth, accompanied by rapidly evolving regulatory frameworks that companies must navigate carefully to ensure compliance and maintain competitive advantage.\n\nThe European Union's proposed AI Act represents the most comprehensive attempt to regulate artificial intelligence systems globally. This legislation introduces a risk-based approach to AI regulation, categorizing AI systems based on their potential impact and imposing varying levels of compliance requirements.\n\nHigh-risk AI systems, including those used in critical infrastructure, education, and law enforcement, face the most stringent requirements. Companies developing such systems must implement robust quality management systems, ensure human oversight, and maintain detailed documentation of their AI models and training data.\n\nData protection considerations are particularly complex for AI companies, as they often involve processing large volumes of personal data for training and operational purposes. Compliance with GDPR and similar regulations requires careful attention to legal bases for processing, data minimization principles, and individual rights.\n\nIntellectual property strategies for AI companies must address unique challenges related to AI-generated content, training data ownership, and patent protection for AI innovations. The intersection of AI and IP law continues to evolve, requiring specialized expertise to navigate effectively.\n\nOur legal team provides comprehensive support to AI companies, helping them establish compliant business practices while preserving their ability to innovate and compete in rapidly evolving markets."
+      },
+      "gdprUpdate": {
+        "title": "GDPR Updates 2024: New Enforcement Trends",
+        "excerpt": "Latest developments in GDPR enforcement and what companies need to know about compliance.",
+        "content": "The General Data Protection Regulation continues to evolve through enforcement actions and regulatory guidance, creating new compliance considerations for technology companies operating in the European Union.\n\nRecent enforcement trends show increased focus on algorithmic decision-making and automated processing systems. Data protection authorities are paying particular attention to companies' ability to explain their algorithmic processes and ensure meaningful human involvement in significant decisions affecting individuals.\n\nThe concept of legitimate interest as a legal basis for processing has been refined through recent decisions and guidance. Companies must conduct more rigorous legitimate interest assessments and demonstrate that their business interests do not override individuals' privacy rights.\n\nInternational data transfers remain a complex area, with ongoing developments in adequacy decisions and the evolution of transfer mechanisms such as Standard Contractual Clauses and Binding Corporate Rules.\n\nOur GDPR compliance team helps companies stay current with regulatory developments and implement effective privacy programs that support business objectives while ensuring full compliance with data protection requirements."
+      },
+      "fintech": {
+        "title": "FinTech Regulatory Landscape: 2024 Outlook",
+        "excerpt": "Comprehensive overview of the regulatory environment for financial technology companies.",
+        "content": "The financial technology sector continues to experience significant regulatory evolution as authorities worldwide adapt their frameworks to address the unique characteristics and risks of digital financial services.\n\nOpen banking regulations are expanding globally, creating new opportunities and compliance obligations for FinTech companies. Understanding these requirements and their implications for data sharing, customer consent, and competitive positioning is crucial for companies operating in this space.\n\nCryptocurrency and digital asset regulations are becoming increasingly sophisticated, with many jurisdictions implementing comprehensive frameworks that address everything from custody requirements to market conduct obligations.\n\nOur FinTech legal team provides specialized guidance to help companies navigate these complex regulatory environments while building sustainable and compliant business models."
+      },
+      "crossBorder": {
+        "title": "Cross-Border Tax Planning in the Digital Age",
+        "excerpt": "Modern approaches to international tax planning for digital businesses.",
+        "content": "Digital businesses face unique challenges in international tax planning due to the borderless nature of their operations and the ongoing evolution of international tax rules.\n\nThe OECD's Pillar One and Pillar Two initiatives represent fundamental changes to international tax principles, particularly affecting large multinational technology companies. Understanding these changes and their implementation timelines is crucial for effective tax planning.\n\nDigital services taxes implemented by various countries create additional complexity for technology companies, requiring careful analysis of triggering thresholds and compliance obligations.\n\nOur international tax team helps companies develop comprehensive strategies that address these evolving requirements while optimizing overall tax efficiency."
+      },
+      "saasLegal": {
+        "title": "SaaS Legal Considerations: Contracts and Compliance",
+        "excerpt": "Key legal issues for Software-as-a-Service companies in contract structuring and regulatory compliance.",
+        "content": "Software-as-a-Service companies face unique legal challenges related to contract structuring, data protection, and regulatory compliance across multiple jurisdictions.\n\nCustomer agreements must balance flexibility with legal protection, addressing issues such as service level commitments, data processing obligations, and limitation of liability provisions.\n\nRegulatory compliance varies significantly depending on the industries served and the types of data processed. SaaS companies serving regulated industries must implement appropriate controls and oversight mechanisms.\n\nOur team helps SaaS companies develop comprehensive legal frameworks that support their business models while ensuring full compliance with applicable regulations."
+      }
+    },
+    "loadMore": "Load More Posts",
+    "newsletter": {
+      "title": "Stay Updated",
+      "description": "Subscribe to our newsletter for the latest legal insights and industry updates.",
+      "placeholder": "Enter your email address",
+      "subscribe": "Subscribe"
+    },
+    "post": {
+      "sections": {
+        "keyTakeaways": "Key Takeaways",
+        "conclusion": "Conclusion"
+      },
+      "takeaways": {
+        "point1": "Understanding regulatory requirements is crucial for business success",
+        "point2": "Proactive compliance strategies reduce long-term risks and costs",
+        "point3": "Expert legal guidance can help navigate complex regulatory landscapes"
+      },
+      "conclusion": "Navigating the complex legal landscape requires expertise and strategic thinking. Our team is here to help you understand these requirements and implement effective compliance strategies for your business.",
+      "author": {
+        "bio": "Senior legal expert specializing in technology law and regulatory compliance.",
+        "viewProfile": "View Full Profile →"
+      },
+      "relatedService": "Related Service",
+      "contact": {
+        "title": "Need Legal Advice?",
+        "subtitle": "Contact our experts to discuss your specific legal requirements."
+      }
+    }
+  },
+  "projects": {
+    "fintech": {
+      "title": "FinTech Startup Global Structure",
+      "overview": "A comprehensive corporate structuring project for a financial technology startup expanding globally, requiring compliance with multiple regulatory frameworks.",
+      "challenge": "The client needed to establish a corporate structure that would accommodate rapid international expansion while ensuring compliance with financial services regulations in multiple jurisdictions.",
+      "solution": "We designed a multi-jurisdictional structure with holding companies in optimal locations, subsidiary operations in target markets, and a comprehensive compliance framework.",
+      "results": "Successfully launched operations in 5 jurisdictions within 12 months, securing necessary licenses and regulatory approvals while maintaining tax efficiency.",
+      "duration": "8 months",
+      "location": "EU, UK, USA"
+    },
+    "ecommerce": {
+      "title": "E-commerce Platform European Expansion",
+      "overview": "Legal framework development for an e-commerce platform entering new European markets with complex regulatory requirements.",
+      "challenge": "The platform needed to comply with varying consumer protection laws, data protection requirements, and tax obligations across multiple EU member states.",
+      "solution": "We established a centralized European structure with local compliance mechanisms and a comprehensive legal framework covering all operational aspects.",
+      "results": "Successful market entry in 8 EU countries with full regulatory compliance and optimized tax structure.",
+      "duration": "6 months",
+      "location": "European Union"
+    },
+    "categories": {
+      "fintech": "FinTech",
+      "ecommerce": "E-commerce",
+      "saas": "SaaS",
+      "gaming": "Gaming"
+    }
+  },
+  "project": {
+    "details": {
+      "duration": "Duration",
+      "location": "Location",
+      "category": "Category",
+      "team": "Team",
+      "members": "members"
+    },
+    "sections": {
+      "overview": "Project Overview",
+      "challenge": "Challenge",
+      "solution": "Our Solution",
+      "results": "Results",
+      "team": "Team Members",
+      "relatedServices": "Related Services"
+    },
+    "contact": {
+      "title": "Similar Project Needs?",
+      "subtitle": "Contact us to discuss how we can help with your specific requirements."
+    }
+  },
+  "company": {
+    "hero": {
+      "title": "About Wolja Digital",
+      "subtitle": "Expert legal solutions for technology companies and startups worldwide"
+    },
+    "about": {
+      "title": "Who We Are",
+      "paragraph1": "Wolja Digital is a specialized legal consultancy focused on providing comprehensive corporate structuring and legal services to technology companies, startups, and digital businesses worldwide.",
+      "paragraph2": "Our team combines deep legal expertise with practical business experience, enabling us to deliver solutions that not only ensure compliance but also support our clients' strategic objectives and growth plans.",
+      "paragraph3": "We operate from three strategic locations across Europe and the CIS region, providing our clients with local expertise and global reach. Our multilingual team understands the unique challenges facing technology businesses in today's rapidly evolving regulatory landscape."
+    },
+    "values": {
+      "title": "Our Values",
+      "description": "The principles that guide our work and define our commitment to clients.",
+      "excellence": {
+        "title": "Excellence",
+        "description": "We strive for the highest standards in everything we do, delivering exceptional results for our clients."
+      },
+      "integrity": {
+        "title": "Integrity",
+        "description": "We maintain the highest ethical standards and transparency in all our professional relationships."
+      },
+      "innovation": {
+        "title": "Innovation",
+        "description": "We embrace innovative approaches to legal services, leveraging technology and creative thinking."
+      }
+    },
+    "advantages": {
+      "title": "Why Choose Wolja Digital",
+      "description": "Discover what sets us apart in the legal services industry.",
+      "expertise": {
+        "title": "Specialized Expertise",
+        "description": "Deep understanding of technology business models and industry-specific legal requirements."
+      },
+      "global": {
+        "title": "Global Reach",
+        "description": "Multi-jurisdictional expertise covering 30+ countries and regulatory environments."
+      },
+      "efficiency": {
+        "title": "Efficient Process",
+        "description": "Streamlined processes and technology-driven solutions for faster, more cost-effective results."
+      },
+      "personalized": {
+        "title": "Personalized Service",
+        "description": "Tailored solutions that address each client's unique needs and business objectives."
+      }
+    },
+    "offices": {
+      "title": "Our Global Presence",
+      "description": "We operate from three strategic locations to serve our clients across Europe, CIS, and beyond.",
+      "warsaw": {
+        "title": "Warsaw, Poland",
+        "address": "ul. Marszałkowska 126/134, 00-008 Warsaw, Poland",
+        "description": "European headquarters serving EU markets and regional expansion"
+      },
+      "tbilisi": {
+        "title": "Tbilisi, Georgia",
+        "address": "12 Tsinandali St, Tbilisi 0144, Georgia",
+        "description": "CIS markets hub and regional business development center"
+      },
+      "limassol": {
+        "title": "Limassol, Cyprus",
+        "address": "28th October 365, Limassol 3107, Cyprus",
+        "description": "Financial services and offshore solutions specialist center"
+      }
+    },
+    "contact": {
+      "title": "Ready to Work Together?",
+      "subtitle": "Contact us to learn more about how we can support your business objectives."
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact Us",
+      "subtitle": "Get in touch with our legal experts to discuss your business needs"
+    },
+    "info": {
+      "title": "Get in Touch"
+    },
+    "offices": {
+      "warsaw": {
+        "title": "Warsaw Office",
+        "address": "ul. Marszałkowska 126/134, 00-008 Warsaw, Poland"
+      },
+      "tbilisi": {
+        "title": "Tbilisi Office",
+        "address": "12 Tsinandali St, Tbilisi 0144, Georgia"
+      },
+      "limassol": {
+        "title": "Limassol Office",
+        "address": "28th October 365, Limassol 3107, Cyprus"
+      }
+    },
+    "form": {
+      "title": "Send us a Message",
+      "subtitle": "Fill out the form below and we'll get back to you as soon as possible.",
+      "name": "Full Name",
+      "email": "Email Address",
+      "company": "Company",
+      "message": "Message",
+      "submit": "Send Message"
+    },
+    "title": "Contact Our Team",
+    "service": {
+      "title": "Interested in Our Services?",
+      "subtitle": "Contact us to learn more about how we can help your business."
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated:",
+    "sections": {
+      "overview": {
+        "title": "Overview",
+        "content": "This Privacy Policy describes how Wolja Digital collects, uses, and protects your personal information when you use our services or visit our website."
+      },
+      "dataCollection": {
+        "title": "Information We Collect",
+        "intro": "We collect information you provide directly to us, such as when you:",
+        "personalInfo": "Personal identification information (name, email, phone number)",
+        "contactInfo": "Contact and communication preferences",
+        "businessInfo": "Business information and service requirements",
+        "technicalInfo": "Technical information about your use of our website"
+      },
+      "dataUse": {
+        "title": "How We Use Your Information",
+        "intro": "We use the information we collect to:",
+        "services": "Provide and improve our legal services",
+        "communication": "Communicate with you about our services",
+        "improvement": "Analyze and improve our website and services",
+        "legal": "Comply with legal obligations"
+      },
+      "dataSharing": {
+        "title": "Information Sharing",
+        "content": "We do not sell, trade, or otherwise transfer your personal information to third parties without your consent, except as described in this policy or as required by law."
+      },
+      "rights": {
+        "title": "Your Rights",
+        "intro": "You have the right to:",
+        "access": "Access your personal information",
+        "rectification": "Correct inaccurate information",
+        "erasure": "Request deletion of your information",
+        "portability": "Data portability",
+        "objection": "Object to processing"
+      },
+      "contact": {
+        "title": "Contact Information",
+        "content": "If you have any questions about this Privacy Policy, please contact us at:",
+        "address": "ul. Marszałkowska 126/134, 00-008 Warsaw, Poland"
+      }
+    }
+  },
+  "terms": {
+    "title": "Terms of Use",
+    "lastUpdated": "Last updated:",
+    "sections": {
+      "acceptance": {
+        "title": "Acceptance of Terms",
+        "content": "By accessing and using our services, you accept and agree to be bound by the terms and provision of this agreement."
+      },
+      "services": {
+        "title": "Description of Services",
+        "content": "Wolja Digital provides legal consulting and corporate structuring services to technology companies and startups."
+      },
+      "obligations": {
+        "title": "Client Obligations",
+        "intro": "As a client, you agree to:",
+        "accurate": "Provide accurate and complete information",
+        "lawful": "Use our services for lawful purposes only",
+        "confidential": "Maintain confidentiality of sensitive information",
+        "prompt": "Respond promptly to requests for information"
+      },
+      "fees": {
+        "title": "Fees and Payment",
+        "content": "Fees for our services will be agreed upon in writing before commencement of work. Payment terms and conditions will be specified in individual service agreements."
+      },
+      "confidentiality": {
+        "title": "Confidentiality",
+        "content": "We maintain strict confidentiality regarding all client information and communications in accordance with professional legal standards and applicable laws."
+      },
+      "limitation": {
+        "title": "Limitation of Liability",
+        "content": "Our liability for any claim related to our services shall be limited to the fees paid for the specific services giving rise to the claim."
+      },
+      "termination": {
+        "title": "Termination",
+        "content": "Either party may terminate the service relationship with appropriate notice as specified in individual service agreements."
+      },
+      "governing": {
+        "title": "Governing Law",
+        "content": "These terms shall be governed by and construed in accordance with the laws of Poland."
+      },
+      "contact": {
+        "title": "Contact Information",
+        "content": "For questions regarding these terms, please contact us at:",
+        "address": "ul. Marszałkowska 126/134, 00-008 Warsaw, Poland"
+      }
+    }
+  },
+  "cookies": {
+    "title": "Cookie Policy",
+    "lastUpdated": "Last updated:",
+    "sections": {
+      "overview": {
+        "title": "What Are Cookies",
+        "content": "Cookies are small text files that are placed on your computer or mobile device when you visit our website. They help us provide you with a better user experience."
+      },
+      "types": {
+        "title": "Types of Cookies We Use",
+        "essential": {
+          "title": "Essential Cookies",
+          "content": "These cookies are necessary for the website to function properly and cannot be disabled."
+        },
+        "performance": {
+          "title": "Performance Cookies",
+          "content": "These cookies help us understand how visitors use our website by collecting anonymous information."
+        },
+        "functional": {
+          "title": "Functional Cookies",
+          "content": "These cookies enable enhanced functionality and personalization, such as language preferences."
+        },
+        "targeting": {
+          "title": "Targeting Cookies",
+          "content": "These cookies may be set by our advertising partners to build a profile of your interests."
+        }
+      },
+      "control": {
+        "title": "Managing Cookies",
+        "content": "You can control and manage cookies through your browser settings. Please note that disabling certain cookies may affect the functionality of our website."
+      },
+      "thirdParty": {
+        "title": "Third-Party Cookies",
+        "content": "We may also use third-party services that place cookies on your device. These are governed by the respective third parties' privacy policies."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "content": "If you have any questions about our use of cookies, please contact us at:",
+        "address": "ul. Marszałkowska 126/134, 00-008 Warsaw, Poland"
+      }
+    }
+  },
+  "404": {
+    "title": "Oops....",
+    "subtitle": "Page not found",
+    "description1": "This Page doesn't exist or was removed!",
+    "description2": "We suggest you back to home.",
+    "goHome": "Back to home",
+    "contact": "Contact Us",
+    "suggestions": {
+      "title": "You might be looking for:",
+      "services": "Our Services",
+      "team": "Our Team",
+      "blog": "Latest Insights",
+      "company": "About Us"
+    }
+  },
+  "page": {
+    "title": "CORPORATE & TAX STRUCTURING SERVICES",
+    "description": "We help technology companies and start-ups establish optimal business structure and framework. We design and realise efficient company structure and special statuses, that align with your business objectives whilst ensuring compliance dependent from the type of commercial activity. We provide strategic guidance that supports your expansion plans and minimises regulatory risks.",
+    "services": {
+      "corporateStructuring": {
+        "title": "Corporate and tax structuring (jurisdiction selection)",
+        "description": "We analyse your business model, revenue streams, and operational requirements to recommend the most suitable jurisdictions for your corporate structure. Our assessment considers factors including tax efficiency, regulatory environment, international treaties, and practical business considerations to create corporate structures that aligns your key commercial objectives."
+      },
+      "incorporation": {
+        "title": "Company incorporation (30+ jurisdictions)",
+        "description": "We facilitate company registration across more than 30 jurisdictions, including popular technology hubs in the EU, UK, USA, CIS, and other key markets.",
+        "locations": {
+          "intro": "Main locations:",
+          "eu": "European Union: Poland, Estonia, Netherlands, Cyprus, Ireland, Malta",
+          "cis": "Georgia, Uzbekistan, Kazakhstan, Kyrgyzstan",
+          "serbia": "Serbia",
+          "uk": "United Kingdom",
+          "usa": "USA (Delaware)",
+          "uae": "UAE",
+          "hongkong": "Hongkong"
+        }
+      },
+      "bankAccount": {
+        "title": "Bank account opening",
+        "description": "We assist with opening corporate bank accounts in your chosen jurisdictions."
+      },
+      "governance": {
+        "title": "Corporate governance documents. Share Purchase Agreements, Shareholders Agreements",
+        "description": "We design legal framework for your business relations with partners, investors, management and other stakeholders. We draft and negotiate investment documentation including share purchase agreements, shareholders' agreements, and related corporate governance documents. We ensure these agreements address sector-specific issues such as intellectual property rights, employee share schemes, and exit provisions."
+      },
+      "investment": {
+        "title": "SAFE and investment agreements",
+        "description": "We guide companies on formalising investment attraction activities. We prepare Simple Agreements for Future Equity (SAFE) and other investment instruments commonly used in start-up funding rounds."
+      },
+      "specialPrograms": {
+        "title": "Special programmes and zones for IT companies and start-ups (IT-Park, Virtual zone)",
+        "description": "We guide companies through applications for special economic zones, IT parks, and government incentive programmes designed for technology businesses. These programmes often provide significant tax advantages, simplified regulatory procedures, and other benefits."
+      }
+    }
+  },
+  "footer": {
+    "logo": "Wolja Digital",
+    "sections": {
+      "navigation": {
+        "title": "Navigation",
+        "links": {
+          "home": "Home",
+          "services": "Services",
+          "team": "Team",
+          "blog": "Blog",
+          "company": "Company"
+        }
+      },
+      "legal": {
+        "title": "Legal",
+        "links": {
+          "privacy": "Privacy Policy",
+          "terms": "Term of Use",
+          "cookies": "Cookie Policy"
+        }
+      },
+      "social": {
+        "title": "Social",
+        "links": {
+          "linkedin": "Linkedin",
+          "telegram": "Telegram",
+          "facebook": "Facebook"
+        }
+      }
+    },
+    "copyright": "© 2025 Wolja Digital - All Rights Reserved"
+  },
+  "cases": {
+    "hero": {
+      "title": "Cases"
+    },
+    "sections": {
+      "turnkeyBusiness": {
+        "title": "Turnkey business and taxes",
+        "description": "Comprehensive business setup and tax optimization solutions for technology companies and startups. We handle all aspects of business formation, from initial incorporation to ongoing tax planning, ensuring your business structure is efficient and compliant across multiple jurisdictions."
+      },
+      "licensingRegulations": {
+        "title": "Licensing and regulations",
+        "description": "Navigate complex regulatory environments with our expertise in securing necessary licenses and ensuring ongoing compliance. We help technology companies understand and meet regulatory requirements across different sectors and jurisdictions, minimizing risk and enabling smooth operations."
+      },
+      "itSupport": {
+        "title": "IT companies support",
+        "description": "Specialized legal support tailored for technology companies, including software licensing, data protection compliance, intellectual property strategies, and digital services regulations. Our team understands the unique challenges facing IT businesses in today's evolving regulatory landscape."
+      },
+      "intellectualProperty": {
+        "title": "Intellectual property",
+        "description": "Comprehensive intellectual property protection and commercialization strategies. We help secure patents, trademarks, and copyrights, develop licensing agreements, and create IP portfolios that support your business objectives and protect your innovations in global markets."
+      },
+      "disputesArbitration": {
+        "title": "Disputes and arbitration",
+        "description": "Expert dispute resolution services including commercial litigation, international arbitration, and alternative dispute resolution. Our experienced team represents clients in complex commercial disputes, contractual disagreements, and cross-border conflicts with a focus on achieving practical business solutions."
+      },
+      "confidentialityMigration": {
+        "title": "Confidentiality and migration",
+        "description": "Secure business migration and confidentiality services for companies relocating operations or expanding internationally. We ensure smooth transitions while maintaining strict confidentiality standards and protecting sensitive business information throughout the process."
+      }
+    }
+  }
 }

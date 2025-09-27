@@ -10,9 +10,9 @@ interface ProjectCardProps {
 export default function ProjectCard({ title, slug }: ProjectCardProps) {
   return (
     <Link href={`/projects/${slug}`}>
-      <div className="bg-white rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow duration-300 cursor-pointer h-full flex flex-col justify-between">
+      <div className="bg-[#F7F8FA] p-6 hover:shadow-md transition-shadow duration-300 cursor-pointer h-[252px] flex flex-col">
         {/* Title */}
-        <h3 className="font-poppins text-lg font-semibold text-[#2d3748] mb-6 leading-tight">
+        <h3 className="font-poppins text-[32px] font-medium text-[#2d3748] mb-6 leading-tight">
           {title}
         </h3>
 

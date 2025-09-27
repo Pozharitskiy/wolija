@@ -1,0 +1,335 @@
+{
+    "corporate-structuring": {
+        "title": "CORPORATE & TAX STRUCTURING SERVICES",
+        "heroImage": "https://api.builder.io/api/v1/image/assets/TEMP/bfefd954787690e3c77dee02f1a22fea654b8ad7?width=3840",
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "We help tech companies organise their activities, optimise their cost structure whilst ensuring compliance with local legal requirements, depending from the type of commercial activity. We provide strategic guidance that supports your expansion plans and minimises regulatory risks."
+            },
+            {
+                "type": "subtitle",
+                "text": "Corporate and tax structuring (jurisdiction selection)"
+            },
+            {
+                "type": "paragraph",
+                "text": "We analyse your business model, revenue streams, and operational requirements to recommend the most suitable jurisdictions for your corporate structure. Our assessment considers factors including tax efficiency, regulatory environment, international treaties, and practical business considerations to create corporate structures that aligns your key commercial objectives."
+            },
+            {
+                "type": "subtitle",
+                "text": "Company incorporation (30+ jurisdictions)"
+            },
+            {
+                "type": "paragraph",
+                "text": "We facilitate company registration across more than 30 jurisdictions, including popular technology hubs in the EU, UK, USA, CIS, and other key markets."
+            },
+            {
+                "type": "paragraph",
+                "text": "Main locations:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "European Union: Poland, Estonia, Netherlands, Cyprus, Ireland, Malta",
+                    "Georgia, Uzbekistan, Kazakhstan, Kyrgyzstan",
+                    "Serbia",
+                    "United Kingdom",
+                    "USA (Delaware)",
+                    "UAE",
+                    "Hongkong"
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "Bank account opening"
+            },
+            {
+                "type": "paragraph",
+                "text": "We assist with opening corporate bank accounts in your chosen jurisdictions."
+            },
+            {
+                "type": "subtitle",
+                "text": "Corporate governance documents. Share Purchase Agreements, Shareholders Agreements"
+            },
+            {
+                "type": "paragraph",
+                "text": "We design legal framework for your business relations with partners, investors, management and other stakeholders. We draft and negotiate investment documentation including share purchase agreements, shareholders' agreements, and related corporate governance documents. We ensure these agreements address sector-specific issues such as intellectual property rights, employee share schemes, and exit provisions."
+            },
+            {
+                "type": "subtitle",
+                "text": "SAFE and investment agreements"
+            },
+            {
+                "type": "paragraph",
+                "text": "We guide companies on formulating investment attraction activities. We prepare Simple Agreements for Future Equity (SAFE) and other investment instruments commonly used in start-up funding scenarios."
+            },
+            {
+                "type": "subtitle",
+                "text": "Special programmes and zones for IT companies and start-ups (IT-Park, Virtual zone)"
+            },
+            {
+                "type": "paragraph",
+                "text": "We guide companies through applications for special economic zones, IT parks, and government incentive programmes designed for technology businesses. These programmes often provide significant tax advantages, simplified regulatory procedures, and other benefits."
+            }
+        ]
+    },
+    "licensing": {
+        "title": "LICENSING AND REGULATIONS",
+        "heroImage": "/heroCards/contract.svg",
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "Navigate complex regulatory landscapes with our comprehensive licensing and compliance services. We help tech companies obtain necessary licenses and maintain regulatory compliance across multiple jurisdictions."
+            },
+            {
+                "type": "subtitle",
+                "text": "Technology Licensing"
+            },
+            {
+                "type": "paragraph",
+                "text": "Assistance with software licensing, SaaS compliance, and technology transfer agreements across international markets."
+            },
+            {
+                "type": "subtitle",
+                "text": "Gaming and iGaming Licenses"
+            },
+            {
+                "type": "paragraph",
+                "text": "Specialized support for gaming industry licensing including:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Online gaming licenses",
+                    "Sports betting licenses",
+                    "Casino and gambling permits",
+                    "Compliance with international gaming regulations"
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "Financial Services Licensing"
+            },
+            {
+                "type": "paragraph",
+                "text": "Support for fintech companies seeking financial services licenses, payment institution licenses, and cryptocurrency exchange permits."
+            }
+        ]
+    },
+    "it-support": {
+        "title": "IT COMPANIES SUPPORT",
+        "heroImage": "/heroCards/hacker.svg",
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "Comprehensive legal support tailored specifically for IT companies, startups, and technology businesses operating in the digital economy."
+            },
+            {
+                "type": "subtitle",
+                "text": "Software Development Agreements"
+            },
+            {
+                "type": "paragraph",
+                "text": "Drafting and negotiating software development contracts, including:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Custom software development agreements",
+                    "SaaS licensing agreements",
+                    "API licensing and integration contracts",
+                    "Maintenance and support agreements"
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "Data Protection and Privacy"
+            },
+            {
+                "type": "paragraph",
+                "text": "GDPR compliance, data processing agreements, and privacy policy development for global operations."
+            },
+            {
+                "type": "subtitle",
+                "text": "Cloud Services and Infrastructure"
+            },
+            {
+                "type": "paragraph",
+                "text": "Legal support for cloud service providers and infrastructure companies, including service level agreements and terms of service."
+            }
+        ]
+    },
+    "ip-protection": {
+        "title": "INTELLECTUAL PROPERTY PROTECTION",
+        "heroImage": "/heroCards/biometric.svg",
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "Protect your most valuable assets with our comprehensive intellectual property services designed for technology companies and innovative businesses."
+            },
+            {
+                "type": "subtitle",
+                "text": "Patent Protection"
+            },
+            {
+                "type": "paragraph",
+                "text": "Strategic patent filing and portfolio management:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Software and algorithm patents",
+                    "International patent filing strategies",
+                    "Patent landscape analysis",
+                    "Freedom to operate assessments"
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "Trademark and Brand Protection"
+            },
+            {
+                "type": "paragraph",
+                "text": "Comprehensive brand protection services including trademark registration, brand monitoring, and enforcement actions."
+            },
+            {
+                "type": "subtitle",
+                "text": "Copyright and Trade Secrets"
+            },
+            {
+                "type": "paragraph",
+                "text": "Protection of software code, documentation, and proprietary business information through copyright registration and trade secret policies."
+            }
+        ]
+    },
+    "gamedev-support": {
+        "title": "CONFIDENTIALITY AND MIGRATION",
+        "heroImage": "/heroCards/gamer.svg",
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "Specialized legal services for game development studios, publishers, and gaming companies, including confidentiality protection and business migration support."
+            },
+            {
+                "type": "subtitle",
+                "text": "Game Development Contracts"
+            },
+            {
+                "type": "paragraph",
+                "text": "Comprehensive legal support for game development:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Publishing agreements",
+                    "Distribution contracts",
+                    "Influencer and streamer agreements",
+                    "Esports tournament regulations"
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "Confidentiality and NDAs"
+            },
+            {
+                "type": "paragraph",
+                "text": "Protection of sensitive business information through robust confidentiality agreements and non-disclosure policies."
+            },
+            {
+                "type": "subtitle",
+                "text": "Business Migration Services"
+            },
+            {
+                "type": "paragraph",
+                "text": "Support for companies relocating operations, including regulatory compliance, tax optimization, and staff relocation assistance."
+            }
+        ]
+    },
+    "international-arbitration": {
+        "title": "DISPUTES AND ARBITRATION",
+        "heroImage": "/heroCards/justice.svg",
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "Expert representation in international commercial disputes and arbitration proceedings, with particular expertise in technology and business disputes."
+            },
+            {
+                "type": "subtitle",
+                "text": "International Commercial Arbitration"
+            },
+            {
+                "type": "paragraph",
+                "text": "Representation before major arbitration institutions:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Stockholm Chamber of Commerce (SCC)",
+                    "Vilnius Court of Commercial Arbitration (VCCA)",
+                    "International Chamber of Commerce (ICC)",
+                    "London Court of International Arbitration (LCIA)"
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "Technology Disputes"
+            },
+            {
+                "type": "paragraph",
+                "text": "Specialized expertise in resolving technology-related disputes including software development disputes, IP infringement claims, and licensing disagreements."
+            },
+            {
+                "type": "subtitle",
+                "text": "Investment Disputes"
+            },
+            {
+                "type": "paragraph",
+                "text": "Protection of investor interests in complex commercial disputes, including shareholder disputes and investment protection proceedings."
+            }
+        ]
+    },
+    "migration-private": {
+        "title": "MIGRATION PRIVATE",
+        "heroImage": "/heroCards/travel.svg",
+        "content": [
+            {
+                "type": "paragraph",
+                "text": "Comprehensive immigration and relocation services for individuals and families, with specialized support for entrepreneurs and business professionals."
+            },
+            {
+                "type": "subtitle",
+                "text": "EU Residency Programs"
+            },
+            {
+                "type": "paragraph",
+                "text": "Access to European residency through various programs:"
+            },
+            {
+                "type": "list",
+                "items": [
+                    "Hungarian Entrepreneur Programme",
+                    "Portuguese Golden Visa",
+                    "Estonian Digital Nomad Visa",
+                    "French Tech Visa",
+                    "Investment-based residency programs"
+                ]
+            },
+            {
+                "type": "subtitle",
+                "text": "Business Immigration"
+            },
+            {
+                "type": "paragraph",
+                "text": "Specialized support for business professionals, entrepreneurs, and investors seeking to relocate for business purposes."
+            },
+            {
+                "type": "subtitle",
+                "text": "Family Reunification"
+            },
+            {
+                "type": "paragraph",
+                "text": "Assistance with family reunification procedures and dependent visa applications across multiple jurisdictions."
+            }
+        ]
+    }
+}

@@ -7,7 +7,7 @@ export default function Footer() {
   const { t } = useI18n();
 
   return (
-    <footer className="w-full border-t border-[rgba(0,0,0,0.15)] pt-16 pb-8">
+    <footer className="w-full border-t border-[rgba(0,0,0,0.15)] pt-8 pb-4">
       <div className="max-w-[1200px] mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-12">
           {/* Logo Section */}
@@ -30,10 +30,10 @@ export default function Footer() {
 
           {/* Navigation Section */}
           <div className="flex flex-col">
-            <h3 className="text-[#2d3748] font-inter text-lg font-semibold leading-6 mb-6">
+            <h3 className="text-[#2d3748] font-inter text-lg font-semibold leading-6 mb-4">
               {t("footer.sections.navigation.title")}
             </h3>
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-2">
               <Link
                 href="/"
                 className="text-[#4a5568] font-inter text-sm leading-5 hover:text-[#84cc16] transition-colors"
@@ -69,10 +69,10 @@ export default function Footer() {
 
           {/* Legal Section */}
           <div className="flex flex-col">
-            <h3 className="text-[#2d3748] font-inter text-lg font-semibold leading-6 mb-6">
+            <h3 className="text-[#2d3748] font-inter text-lg font-semibold leading-6 mb-4">
               {t("footer.sections.legal.title")}
             </h3>
-            <div className="flex flex-col gap-4">
+            <div className="flex flex-col gap-2">
               <Link
                 href="/privacy-policy"
                 className="text-[#4a5568] font-inter text-sm leading-5 hover:text-[#84cc16] transition-colors"
@@ -96,11 +96,11 @@ export default function Footer() {
 
           {/* Social Section */}
           <div className="flex flex-col">
-            <h3 className="text-[#2d3748] font-inter text-lg font-semibold leading-6 mb-6">
+            <h3 className="text-[#2d3748] font-inter text-lg font-semibold leading-6 mb-4">
               {t("footer.sections.social.title")}
             </h3>
-            <div className="flex flex-col gap-4">
-              <div className="flex items-center gap-3">
+            <div className="flex flex-col gap-2">
+              <div className="flex items-center gap-3 cursor-pointer">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                   <g clipPath="url(#clip0_223_5777)">
                     <path
@@ -118,7 +118,7 @@ export default function Footer() {
                   {t("footer.sections.social.links.linkedin")}
                 </span>
               </div>
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-3 cursor-pointer">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                   <g clipPath="url(#clip0_223_5781)">
                     <path
@@ -136,7 +136,7 @@ export default function Footer() {
                   {t("footer.sections.social.links.telegram")}
                 </span>
               </div>
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-3 cursor-pointer">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                   <g clipPath="url(#clip0_223_5785)">
                     <path
@@ -159,7 +159,7 @@ export default function Footer() {
         </div>
 
         {/* Copyright */}
-        <div className="border-t border-[rgba(0,0,0,0.15)] mt-16 pt-8 text-center">
+        <div className="border-t border-[rgba(0,0,0,0.15)] mt-8 pt-4 text-center">
           <span className="text-[#2d3748] font-inter text-sm leading-5">
             {t("footer.copyright")}
           </span>

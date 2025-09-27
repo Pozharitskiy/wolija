@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Tag from "./Tag";
 
 interface InsightCardProps {
   title: string;
@@ -17,9 +18,6 @@ export default function InsightCard({
   date,
   tags,
 }: InsightCardProps) {
-  // Unified tag styling for all tags
-  const tagStyle = "bg-transparent text-[#4a5568] border-[#84cc16]";
-
   return (
     <Link href={`/blog/${slug}`}>
       <div className="bg-white border border-gray-200 rounded-lg p-6 hover:shadow-md transition-shadow duration-300 cursor-pointer h-full flex flex-col">
@@ -46,12 +44,7 @@ export default function InsightCard({
         {/* Tags */}
         <div className="flex flex-wrap gap-2">
           {tags.map((tag, index) => (
-            <span
-              key={index}
-              className={`px-3 py-1 rounded-full text-xs font-medium border transition-colors ${tagStyle}`}
-            >
-              {tag}
-            </span>
+            <Tag key={index}>{tag}</Tag>
           ))}
         </div>
       </div>

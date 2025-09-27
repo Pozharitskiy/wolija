@@ -1,62 +1,51 @@
 "use client";
 
+import Link from "next/link";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
-import ServiceCard from "../components/ServiceCard";
-import ContactForm from "../components/ContactForm";
-import Breadcrumb from "../components/Breadcrumb";
+import LearnMoreButton from "../components/LearnMoreButton";
 import { useI18n } from "../lib/i18n";
 
 export default function ServicesPage() {
   const { t } = useI18n();
 
-  const breadcrumbItems = [
-    { label: t("breadcrumb.home"), href: "/" },
-    { label: t("breadcrumb.services") },
-  ];
-
+  // Same services array as home page for hero cards
   const services = [
     {
-      title: t("services.corporate.title"),
-      description: t("services.corporate.description"),
-      image:
-        "https://api.builder.io/api/v1/image/assets/TEMP/bfefd954787690e3c77dee02f1a22fea654b8ad7?width=400",
+      title: "Turnkey business and taxes",
+      description: "Learn more",
+      image: "/heroCards/pawns.svg",
       slug: "corporate-structuring",
     },
     {
-      title: t("services.legal.title"),
-      description: t("services.legal.description"),
-      image:
-        "https://api.builder.io/api/v1/image/assets/TEMP/legal-consulting.jpg?width=400",
-      slug: "legal-consulting",
+      title: "Licensing and regulations",
+      description: "Learn more",
+      image: "/heroCards/contract.svg",
+      slug: "licensing",
     },
     {
-      title: t("services.tax.title"),
-      description: t("services.tax.description"),
-      image:
-        "https://api.builder.io/api/v1/image/assets/TEMP/tax-advisory.jpg?width=400",
-      slug: "tax-advisory",
+      title: "IT companies support",
+      description: "Learn more",
+      image: "/heroCards/hacker.svg",
+      slug: "it-support",
     },
     {
-      title: t("services.compliance.title"),
-      description: t("services.compliance.description"),
-      image:
-        "https://api.builder.io/api/v1/image/assets/TEMP/compliance.jpg?width=400",
-      slug: "compliance",
+      title: "Intellectual property",
+      description: "Learn more",
+      image: "/heroCards/biometric.svg",
+      slug: "ip-protection",
     },
     {
-      title: t("services.ip.title"),
-      description: t("services.ip.description"),
-      image:
-        "https://api.builder.io/api/v1/image/assets/TEMP/ip-protection.jpg?width=400",
-      slug: "intellectual-property",
+      title: "Confidentiality and migration",
+      description: "Learn more",
+      image: "/heroCards/gamer.svg",
+      slug: "gamedev-support",
     },
     {
-      title: t("services.mergers.title"),
-      description: t("services.mergers.description"),
-      image:
-        "https://api.builder.io/api/v1/image/assets/TEMP/ma-advisory.jpg?width=400",
-      slug: "mergers-acquisitions",
+      title: "Disputes and arbitration",
+      description: "Learn more",
+      image: "/heroCards/justice.svg",
+      slug: "international-arbitration",
     },
   ];
 
@@ -64,168 +53,98 @@ export default function ServicesPage() {
     <div className="min-h-screen bg-white">
       <Header />
 
-      {/* Hero Image */}
-      <div className="w-full h-[60vh] relative">
-        <img
-          src="https://api.builder.io/api/v1/image/assets/TEMP/services-hero.jpg?width=3840"
-          alt="Professional legal services"
-          className="w-full h-full object-cover"
-        />
-        <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center">
-          <div className="text-center text-white px-6">
-            <h1 className="font-poppins text-5xl md:text-6xl font-bold mb-6">
-              {t("services.hero.title")}
-            </h1>
-            <p className="font-inter text-xl md:text-2xl max-w-3xl mx-auto">
-              {t("services.hero.subtitle")}
+      {/* Services Grid - Hero Cards only */}
+      <section className="">
+        <div className="w-full">
+          {/* First Row - 2x2 Grid */}
+          <div className="grid grid-cols-2 gap-0">
+            {services.slice(0, 4).map((service, index) => {
+              const isLeftCard = index % 2 === 0;
+              const isFirstTwoCards = index < 2;
+              const textColor = isFirstTwoCards
+                ? "text-[#2D3748]"
+                : "text-white";
+
+              return (
+                <Link
+                  key={index}
+                  href={`/services/${service.slug}`}
+                  className="relative bg-white overflow-hidden shadow-lg group cursor-pointer hover:shadow-xl transition-shadow duration-300"
+                >
+                  <div className="relative h-[600px]">
+                    <img
+                      src={service.image}
+                      alt={service.title}
+                      className="w-full h-full object-cover"
+                    />
+                    <div
+                      className={`absolute top-8 ${
+                        isLeftCard ? "left-8" : "right-8"
+                      } ${textColor} max-w-[280px]`}
+                    >
+                      <h3 className="font-poppins text-3xl font-bold mb-4 leading-tight">
+                        {service.title}
+                      </h3>
+                      <LearnMoreButton className={textColor} />
+                    </div>
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+
+          {/* Second Row - 2 Columns */}
+          <div className="grid grid-cols-2 gap-0">
+            {services.slice(4, 6).map((service, index) => {
+              const isLeftCard = index % 2 === 0;
+              return (
+                <Link
+                  key={index + 4}
+                  href={`/services/${service.slug}`}
+                  className="relative bg-white overflow-hidden shadow-lg group cursor-pointer hover:shadow-xl transition-shadow duration-300"
+                >
+                  <div className="relative h-[600px]">
+                    <img
+                      src={service.image}
+                      alt={service.title}
+                      className="w-full h-full object-cover"
+                    />
+                    <div
+                      className={`absolute top-8 ${
+                        isLeftCard ? "left-8" : "right-8"
+                      } text-white max-w-[35%]`}
+                    >
+                      <h3 className="font-poppins text-[54px] leading-[56px] font-bold mb-4">
+                        {service.title}
+                      </h3>
+                      <LearnMoreButton />
+                    </div>
+                  </div>
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* Need legal support? Contact Section */}
+      <section className="py-20 px-6">
+        <div className="max-w-7xl mx-auto">
+          <div className="p-6 border border-gray-300 rounded-lg text-center">
+            <h2 className="font-poppins text-4xl font-bold text-[#2d3748] mb-6">
+              Need legal support?
+            </h2>
+            <p className="font-inter text-lg text-[#4a5568] mb-8 mx-32">
+              We respond in the most convenient way for you: email, messenger,
+              phone call. Our experience will help your business spread its
+              wings faster.
             </p>
+            <button className="bg-[#84cc16] text-white px-8 py-4 rounded-lg font-inter font-medium hover:bg-[#65a30d] transition-colors duration-300">
+              Contact Us
+            </button>
           </div>
         </div>
-      </div>
-
-      {/* Main Content */}
-      <div className="max-w-7xl mx-auto px-6 py-12">
-        <Breadcrumb items={breadcrumbItems} />
-
-        {/* Intro Section */}
-        <div className="text-center mb-16">
-          <h2 className="font-poppins text-4xl font-bold text-[#2d3748] mb-6">
-            {t("services.intro.title")}
-          </h2>
-          <p className="font-inter text-lg text-[#4a5568] max-w-4xl mx-auto mb-8">
-            {t("services.intro.description")}
-          </p>
-
-          {/* Advantages */}
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-            <div className="text-center">
-              <div className="bg-[#84cc16] rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                  <path
-                    d="M16 2L20.09 10.26L29 12L20.09 13.74L16 22L11.91 13.74L3 12L11.91 10.26L16 2Z"
-                    fill="white"
-                  />
-                </svg>
-              </div>
-              <h3 className="font-poppins text-xl font-semibold text-[#2d3748] mb-2">
-                {t("services.advantages.expertise.title")}
-              </h3>
-              <p className="font-inter text-[#4a5568]">
-                {t("services.advantages.expertise.description")}
-              </p>
-            </div>
-
-            <div className="text-center">
-              <div className="bg-[#84cc16] rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                  <path
-                    d="M16 2C8.268 2 2 8.268 2 16s6.268 14 14 14 14-6.268 14-14S23.732 2 16 2zm0 26C9.383 28 4 22.617 4 16S9.383 4 16 4s12 5.383 12 12-5.383 12-12 12z"
-                    fill="white"
-                  />
-                  <path
-                    d="M16 7c-4.963 0-9 4.037-9 9s4.037 9 9 9 9-4.037 9-9-4.037-9-9-9zm0 16c-3.859 0-7-3.141-7-7s3.141-7 7-7 7 3.141 7 7-3.141 7-7 7z"
-                    fill="white"
-                  />
-                </svg>
-              </div>
-              <h3 className="font-poppins text-xl font-semibold text-[#2d3748] mb-2">
-                {t("services.advantages.global.title")}
-              </h3>
-              <p className="font-inter text-[#4a5568]">
-                {t("services.advantages.global.description")}
-              </p>
-            </div>
-
-            <div className="text-center">
-              <div className="bg-[#84cc16] rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <svg width="32" height="32" viewBox="0 0 32 32" fill="none">
-                  <path
-                    d="M24 6H8C6.9 6 6 6.9 6 8v16c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zM12 22l-4-4 1.41-1.41L12 19.17l8.59-8.59L22 12l-10 10z"
-                    fill="white"
-                  />
-                </svg>
-              </div>
-              <h3 className="font-poppins text-xl font-semibold text-[#2d3748] mb-2">
-                {t("services.advantages.efficiency.title")}
-              </h3>
-              <p className="font-inter text-[#4a5568]">
-                {t("services.advantages.efficiency.description")}
-              </p>
-            </div>
-          </div>
-        </div>
-
-        {/* Services Grid */}
-        <div className="mb-16">
-          <h2 className="font-poppins text-3xl font-bold text-[#2d3748] mb-8 text-center">
-            {t("services.grid.title")}
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {services.map((service, index) => (
-              <ServiceCard
-                key={index}
-                title={service.title}
-                description={service.description}
-                image={service.image}
-                slug={service.slug}
-                variant="featured"
-              />
-            ))}
-          </div>
-        </div>
-
-        {/* Contact Form */}
-        <div className="max-w-4xl mx-auto">
-          <ContactForm
-            title={t("services.contact.title")}
-            subtitle={t("services.contact.subtitle")}
-          />
-        </div>
-      </div>
-
-      {/* Floating Social Media Buttons */}
-      <div className="fixed right-[90px] top-1/2 transform -translate-y-1/2 flex flex-col gap-3 z-50">
-        {/* WhatsApp */}
-        <div className="w-[60px] h-[60px] rounded-full bg-[#00E510] flex items-center justify-center hover:scale-110 transition-transform cursor-pointer">
-          <svg width="30" height="30" viewBox="0 0 60 60" fill="none">
-            <path
-              d="M30.0683 0H29.9317C13.4009 0 0 13.4009 0 29.9317V30.0683C0 46.5991 13.4009 60 29.9317 60H30.0683C46.5991 60 60 46.5991 60 30.0683V29.9317C60 13.4009 46.5991 0 30.0683 0Z"
-              fill="#00E510"
-            />
-            <path
-              d="M35.5631 39C28.0856 39 22.002 32.5564 22 24.639C22.002 22.632 23.5455 21 25.4369 21C25.6313 21 25.8237 21.0173 26.0079 21.052C26.4132 21.1235 26.7981 21.2688 27.1522 21.4877C27.2034 21.5202 27.2382 21.5722 27.2464 21.6329L28.0365 26.9061C28.0467 26.9689 28.0283 27.0296 27.9894 27.0751C27.5534 27.5866 26.9966 27.9551 26.3764 28.1393L26.0776 28.2282L26.1901 28.5338C27.2095 31.282 29.2851 33.4775 31.8827 34.5612L32.1713 34.6826L32.2553 34.3662C32.4292 33.7095 32.7772 33.1199 33.2603 32.6583C33.2951 32.6236 33.3422 32.6063 33.3893 32.6063C33.3995 32.6063 33.4098 32.6063 33.422 32.6084L38.4023 33.445C38.4616 33.4559 38.5108 33.4905 38.5415 33.5447C38.7462 33.9197 38.8833 34.3293 38.9529 34.7585C38.9857 34.9492 39 35.1508 39 35.361C39 37.3658 37.4586 38.9978 35.5631 39Z"
-              fill="#FDFDFD"
-            />
-          </svg>
-        </div>
-
-        {/* Telegram */}
-        <div className="w-[60px] h-[60px] rounded-full bg-[#00B0F2] flex items-center justify-center hover:scale-110 transition-transform cursor-pointer">
-          <svg width="30" height="30" viewBox="0 0 60 60" fill="none">
-            <path
-              d="M30.0683 0H29.9317C13.4009 0 0 13.4009 0 29.9317V30.0683C0 46.5991 13.4009 60 29.9317 60H30.0683C46.5991 60 60 46.5991 60 30.0683V29.9317C60 13.4009 46.5991 0 30.0683 0Z"
-              fill="#00B0F2"
-            />
-            <path
-              d="M10.9721 28.6753C11.057 28.6337 11.1421 28.5941 11.2249 28.5567C12.6651 27.9032 14.1245 27.2913 15.5817 26.6794C15.6603 26.6794 15.792 26.5899 15.8663 26.5608C15.9789 26.5129 16.0915 26.4671 16.2041 26.4192L16.852 26.1466C17.2854 25.9655 17.7166 25.7845 18.1499 25.6034C19.0145 25.2413 19.879 24.8791 20.7436 24.5149C22.4727 23.7906 24.204 23.0643 25.9332 22.34C27.6623 21.6157 29.3935 20.8894 31.1227 20.1651C32.8518 19.4408 34.5831 18.7145 36.3122 17.9902C38.0413 17.2659 39.7726 16.5396 41.5018 15.8153C41.8863 15.653 42.3026 15.4116 42.7147 15.3408C43.061 15.2804 43.3987 15.1639 43.7471 15.0994C44.4077 14.9766 45.1363 14.9266 45.7693 15.1951C45.9881 15.2888 46.1899 15.4199 46.3578 15.5843C47.1607 16.3627 47.0481 17.6406 46.8782 18.7353C45.695 26.3651 44.5118 33.9971 43.3265 41.6269C43.165 42.6738 42.9441 43.8226 42.1008 44.4844C41.387 45.0443 40.3716 45.1067 39.4901 44.8695C38.6085 44.6301 37.831 44.1285 37.0684 43.6353C33.9054 41.5832 30.7403 39.5311 27.5773 37.479C26.8253 36.992 25.9884 36.3551 25.9969 35.4706C26.0012 34.9378 26.3261 34.4633 26.6575 34.0408C29.4063 30.5276 33.3723 28.1134 36.3228 24.7626C36.7392 24.2901 37.0663 23.4368 36.4949 23.1642C36.155 23.0018 35.7641 23.2225 35.454 23.4327C31.5539 26.0863 27.6559 28.7419 23.7558 31.3955C22.4834 32.2613 21.1494 33.1521 19.6157 33.3644C18.2434 33.5558 16.8627 33.1812 15.535 32.7983C14.4219 32.4777 13.3109 32.1489 12.2041 31.8097C11.6157 31.6307 11.0082 31.4371 10.5536 31.0313C10.099 30.6254 9.83777 29.9428 10.1118 29.4017C10.2839 29.0624 10.6174 28.8481 10.9679 28.6732L10.9721 28.6753Z"
-              fill="#FEFFFC"
-            />
-          </svg>
-        </div>
-
-        {/* Support Button */}
-        <div className="w-[60px] h-[60px] rounded-full bg-[#84cc16] flex items-center justify-center hover:scale-110 transition-transform cursor-pointer">
-          <svg width="30" height="30" viewBox="0 0 30 30" fill="none">
-            <path
-              d="M8.75 8.75L21.25 21.25M8.75 21.25L21.25 8.75"
-              stroke="white"
-              strokeWidth="1.25"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
-        </div>
-      </div>
+      </section>
 
       <Footer />
     </div>

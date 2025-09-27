@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import Link from "next/link";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import ServiceCard from "./components/ServiceCard";
@@ -9,7 +10,9 @@ import BlogCard from "./components/BlogCard";
 import ContactForm from "./components/ContactForm";
 import InsightCard from "./components/InsightCard";
 import ProjectCard from "./components/ProjectCard";
+import LearnMoreButton from "./components/LearnMoreButton";
 import { useI18n } from "./lib/i18n";
+import blogData from "./data/blog.json";
 
 export default function HomePage() {
   const { t } = useI18n();
@@ -49,7 +52,7 @@ export default function HomePage() {
       slug: "corporate-structuring",
     },
     {
-      title: "Licensing",
+      title: "Licensing and regulations",
       description: "Learn more",
       image: "/heroCards/contract.svg",
       slug: "licensing",
@@ -157,32 +160,8 @@ export default function HomePage() {
     },
   ];
 
-  const latestInsights = [
-    {
-      title: "Guide to Obtaining a Vanuatu Gaming License",
-      excerpt:
-        "Vanuatu, a Pacific island nation, has become a premier online gaming licensing jurisdiction. Through its rigorous system of regulation, favorable tax regime, and simplified application procedure, the Vanuatu Interactive Gaming License (VIGL) has become a viable choice for operators seeking to access international iGaming... read more",
-      slug: "vanuatu-gaming-license-guide",
-      date: "21 Aug 2025",
-      tags: ["Company Structuring", "Crypto", "Cyber", "iGaming", "Gamedev"],
-    },
-    {
-      title: "Guide to Obtaining a Vanuatu Gaming License",
-      excerpt:
-        "Vanuatu, a Pacific island nation, has become a premier online gaming licensing jurisdiction. Through its rigorous system of regulation, favorable tax regime, and simplified application procedure, the Vanuatu Interactive Gaming License (VIGL) has become a viable choice for operators seeking to access international iGaming... read more",
-      slug: "vanuatu-gaming-license-guide-2",
-      date: "21 Aug 2025",
-      tags: ["Company Structuring", "Crypto", "Cyber", "iGaming", "Gamedev"],
-    },
-    {
-      title: "Guide to Obtaining a Vanuatu Gaming License",
-      excerpt:
-        "Vanuatu, a Pacific island nation, has become a premier online gaming licensing jurisdiction. Through its rigorous system of regulation, favorable tax regime, and simplified application procedure, the Vanuatu Interactive Gaming License (VIGL) has become a viable choice for operators seeking to access international iGaming... read more",
-      slug: "vanuatu-gaming-license-guide-3",
-      date: "21 Aug 2025",
-      tags: ["Company Structuring", "Crypto", "Cyber", "iGaming", "Gamedev"],
-    },
-  ];
+  // Get latest insights from blog data (first 3 posts)
+  const latestInsights = blogData.posts.slice(0, 3);
 
   return (
     <div className="min-h-screen bg-white">
@@ -230,16 +209,14 @@ export default function HomePage() {
               const textColor = isFirstTwoCards
                 ? "text-[#2D3748]"
                 : "text-white";
-              const buttonBgColor = isFirstTwoCards
-                ? "bg-[#2D3748] bg-opacity-20"
-                : "bg-white bg-opacity-20";
 
               return (
-                <div
+                <Link
                   key={index}
-                  className="relative bg-white overflow-hidden shadow-lg group"
+                  href={`/services/${service.slug}`}
+                  className="relative bg-white overflow-hidden shadow-lg group cursor-pointer hover:shadow-xl transition-shadow duration-300"
                 >
-                  <div className="relative h-[300px]">
+                  <div className="relative h-[600px]">
                     <img
                       src={service.image}
                       alt={service.title}
@@ -247,36 +224,16 @@ export default function HomePage() {
                     />
                     <div
                       className={`absolute top-8 ${
-                        isLeftCard ? "left-8" : "right-8"
+                        isLeftCard ? "left-4" : "right-4"
                       } ${textColor} max-w-[280px]`}
                     >
                       <h3 className="font-poppins text-3xl font-bold mb-4 leading-tight">
                         {service.title}
                       </h3>
-                      <div className="flex items-center gap-2 text-base font-medium">
-                        <span>Learn more</span>
-                        <div
-                          className={`w-8 h-8 rounded-full ${buttonBgColor} flex items-center justify-center`}
-                        >
-                          <svg
-                            width="16"
-                            height="16"
-                            viewBox="0 0 16 16"
-                            fill="none"
-                          >
-                            <path
-                              d="M6 12L10 8L6 4"
-                              stroke="currentColor"
-                              strokeWidth="2"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                            />
-                          </svg>
-                        </div>
-                      </div>
+                      <LearnMoreButton className={textColor} />
                     </div>
                   </div>
-                </div>
+                </Link>
               );
             })}
           </div>
@@ -286,11 +243,12 @@ export default function HomePage() {
             {services.slice(4, 6).map((service, index) => {
               const isLeftCard = index % 2 === 0;
               return (
-                <div
+                <Link
                   key={index + 4}
-                  className="relative bg-white overflow-hidden shadow-lg group"
+                  href={`/services/${service.slug}`}
+                  className="relative bg-white overflow-hidden shadow-lg group cursor-pointer hover:shadow-xl transition-shadow duration-300"
                 >
-                  <div className="relative h-[300px]">
+                  <div className="relative h-[600px]">
                     <img
                       src={service.image}
                       alt={service.title}
@@ -299,41 +257,26 @@ export default function HomePage() {
                     <div
                       className={`absolute top-8 ${
                         isLeftCard ? "left-8" : "right-8"
-                      } text-white max-w-[280px]`}
+                      } text-white max-w-[35%]`}
                     >
-                      <h3 className="font-poppins text-3xl font-bold mb-4 leading-tight">
+                      <h3 className="font-poppins text-[54px] leading-[56px] font-bold mb-4">
                         {service.title}
                       </h3>
-                      <div className="flex items-center gap-2 text-base font-medium">
-                        <span>Learn more</span>
-                        <div className="w-8 h-8 rounded-full bg-white bg-opacity-20 flex items-center justify-center">
-                          <svg
-                            width="16"
-                            height="16"
-                            viewBox="0 0 16 16"
-                            fill="none"
-                          >
-                            <path
-                              d="M6 12L10 8L6 4"
-                              stroke="currentColor"
-                              strokeWidth="2"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                            />
-                          </svg>
-                        </div>
-                      </div>
+                      <LearnMoreButton />
                     </div>
                   </div>
-                </div>
+                </Link>
               );
             })}
           </div>
 
           {/* Third Row - 1 Big Image */}
           {services[6] && (
-            <div className="relative bg-white rounded-lg overflow-hidden shadow-lg group">
-              <div className="relative h-[400px]">
+            <Link
+              href={`/services/${services[6].slug}`}
+              className="relative bg-white rounded-lg overflow-hidden shadow-lg group cursor-pointer hover:shadow-xl transition-shadow duration-300"
+            >
+              <div className="relative h-[600px]">
                 <img
                   src={services[6].image}
                   alt={services[6].title}
@@ -364,7 +307,7 @@ export default function HomePage() {
                   </div>
                 </div>
               </div>
-            </div>
+            </Link>
           )}
         </div>
       </section>
@@ -400,7 +343,7 @@ export default function HomePage() {
       </section>
 
       {/* Featured Projects */}
-      <section className="py-20 px-6 bg-gray-50">
+      <section className="py-20 px-2">
         <div className="max-w-7xl mx-auto">
           <div className="flex justify-between items-center mb-16">
             <h2 className="font-poppins text-4xl font-bold text-[#2d3748]">
@@ -414,7 +357,7 @@ export default function HomePage() {
             </a>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {featuredProjects.slice(0, 8).map((project, index) => (
               <ProjectCard
                 key={index}
@@ -440,7 +383,7 @@ export default function HomePage() {
           <h2 className="font-poppins text-4xl font-bold text-[#2d3748] mb-6">
             Got New Project?
           </h2>
-          <p className="font-inter text-lg text-[#4a5568] mb-8 max-w-2xl mx-auto">
+          <p className="font-inter text-lg text-[#4a5568] mb-8 mx-auto">
             Partner with us for expert guidance and strategies that drive growth
             and success.
           </p>
